@@ -2,10 +2,10 @@
 
 /*** typography ***/
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   color: #303030;
   font-size: 1.6em;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 #hivelogo {
@@ -13,35 +13,39 @@ h1 {
   color: #000000;
   font-family: 'Italiana';
   font-size: 3em;
-}
-
-@font-face {
-  font-family: 'Italiana';
-  font-style: normal;
   font-weight: 400;
-  src: local('Italiana'), local('Italiana-Regular'), url(http://themes.googleusercontent.com/static/fonts/italiana/v1/cyoET12_n3_FXMnTJZssYvesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
 }
 
 #hero {
   text-align: center;
   color: #C34A33;
   font-family: 'Yanone Kaffeesatz';
-  font-size: 2em;
+  font-size: 2.65em;
   font-weight: 100;
 }
 
-@font-face {
-  font-family: 'Yanone Kaffeesatz';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(http://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v4/YDAoLskQQ5MOAgvHUQCcLbvy90DtE_Pg_qiF9bHvTzw.ttf) format('truetype');
-}
 
 #title {
   text-align: center;
   color: #303030;
   font-family: 'Yanone Kaffeesatz';
-  font-size: 1.5em;
+  font-size: 1.75em;
+  font-weight: 100;
+}
+
+#name {
+  text-align: center;
+  color: #19675D;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 3em;
+  font-weight: 100;
+}
+
+#biohero {
+  text-align: center;
+  color: #C34A33;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 2em;
   font-weight: 100;
 }
 
@@ -50,11 +54,11 @@ h2 {
   color: #303030;
   font-size: 1.15em;
   text-align: left;
-  font-weight: 500;
+  font-weight: 100;
 }
 
 #h2homepage {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   color: #303030;
   font-size: 1.35em;
   text-align: center;
@@ -73,17 +77,27 @@ h2 {
   text-align: center;
   color: #303030;
   font-family: 'Yanone Kaffeesatz';
-  font-size: 2.5em;
+  font-size: 2.7em;
   font-weight: 50;
 }
 
-h3 {
+#contact {
   font-family: 'Roboto', sans-serif;
   color: #303030;
-  font-size: 18px;
-  text-align: left;
-  font-weight: 500;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 100;
 }
+
+#hivecasestudyh3 {
+  font-family: 'Roboto';
+  color: #DD7F7F;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 300;
+}
+
+h3 {}
 
 h4 {
   font-family: 'Roboto', sans-serif;
@@ -92,12 +106,28 @@ h4 {
   font-weight: 500;
 }
 
-p{
+p {
   font-family: 'Roboto', sans-serif;
   color: #303030;
   text-align: left;
   font-size: .8em;
-  font-weight: 500;
+  font-weight: 300;
+}
+
+#roles {
+  font-family: 'Roboto', sans-serif;
+  color: #303030;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+#biohighlights {
+  font-family: 'Roboto', sans-serif;
+  color: #C34A33;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 ul {
@@ -116,11 +146,40 @@ ol {
   font-weight: 500;
 }
 
+#bannerbar {
+  font-family: 'Roboto', sans-serif;
+  color: #303030;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.yellow {
+  font-family: 'Roboto', sans-serif;
+  color: #DAB73C;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.grey {
+  font-family: 'Roboto', sans-serif;
+  color: #6E6868;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.pink {
+  font-family: 'Roboto', sans-serif;
+  color: #DD7F7F;
+  font-size: 1em;
+  font-weight: 300;
+}
+
 /*Navigation Top Bar*/
 nav {
   width: 100%;
   height: 38px;
-    position: fixed;
+  position: fixed;
   background-color: #fff;
 }
 
