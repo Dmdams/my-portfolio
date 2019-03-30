@@ -84,7 +84,7 @@ h2 {
 #contact {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 100;
   text-align: center;
 }
@@ -111,7 +111,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: .8em;
   font-weight: 300;
-  text-align: left;
+  text-align: justify;
 }
 
 #roles {
@@ -173,6 +173,85 @@ ol {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 300;
+}
+
+/*BIO containers*/
+div.biohero-container {
+  width: 500px;
+  margin: left;
+  padding-left: 100px;
+}
+
+div.diana-bioimage {
+  width: auto;
+  height: 100%;
+  background-image: url("images/Diana Photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div.nametitle-container {
+  width: auto;
+  margin: center;
+  line-height: 1em;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+div.bodytext {
+  width: auto;
+  margin: left;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: justify;
+}
+
+/*HOMEPAGE containers*/
+div.homepagehero-container {
+  width:350px;
+  line-height: 3em;
+  float: right;
+  padding-right: 200px;
+}
+
+div.homepagetitle-container {
+  width:auto;
+}
+
+div.cloud {
+  width:auto;
+  line-height: .75em;
+}
+
+div.newprojects-container {
+  width: 350px;
+  line-height: 2.75em;
+  margin: 0 auto;
+}
+
+div.homepage-pink-links {
+  width: 600px;
+  margin: 0 auto;
+  line-height: .75em;
+  padding: 10px;
+}
+
+div.homepage-highlight-containers-long {
+  width: 650px;
+  margin: 0 auto;
+  line-height: .75em;
+}
+
+div.homepage-highlight-containers-longer {
+  width: auto;
+  margin: 0 auto;
+  line-height: .75em;
+}
+
+div.roles-container {
+  width: 800px;
+  margin: 0 auto;
+  line-height: 1.3em;
 }
 
 /*Navigation Top Bar*/
