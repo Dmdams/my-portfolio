@@ -199,12 +199,8 @@ div.biohero-container {
   padding-left: 100px;
 }
 
-div.diana-bioimage {
-  width: auto;
-  height: 100%;
-  background-image: url("images/Diana Photo.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+.picofme {
+  width: 100%;
 }
 
 div.nametitle-container {
@@ -273,33 +269,27 @@ div.roles-container {
 
 /*Navigation Top Bar*/
 nav {
-  background-color: #fff;
-  height: 38px;
-  position: fixed;
+  background-color: #ffffff;
+  height: 70px;
+  position: Top;
+  top: 0;
+  left: 0;
   width: 100%;
+  position: fixed;
 }
 
 nav a{
     display: block;
     float: left;
-
-/*font settings*/
     color: #303030;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-
-/*box method*/
     background-color: #fff;
-    border: 1px solid #fff;
-
-  /*padding the box*/
-    padding-bottom: 10px;
-    padding-left: 10px;
+    border: none;
+    padding-bottom: 20px;
     padding-right: 10px;
-    padding-top: 20px;
-
-/*no link line decoration*/
-  text-decoration: none;
+    padding-top: 30px;
+    text-decoration: none;
   }
 
 img.resize {
@@ -317,4 +307,9 @@ body {
 }
 
 #logo {
+  border: none;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
 }
