@@ -186,14 +186,6 @@ ol {
   text-align: left;
 }
 
-.bannerbar {
-  color: #303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
-  font-weight: 100;
-  text-align: center;
-}
-
 .yellow {
   color: #DAB73C;
   font-family: 'Roboto', sans-serif;
@@ -292,6 +284,14 @@ li {
     margin: 15px 0;
 }
 
+.bannerbar {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: center;
+}
+
 .homepage-highlight-containers-long {
   width: 650px;
   margin: 0 auto;
@@ -304,7 +304,7 @@ li {
   line-height: .75em;
 }
 
-div.roles-container {
+.roles-container {
   width: 800px;
   margin: 0 auto;
   line-height: 1.3em;
