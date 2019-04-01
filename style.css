@@ -8,10 +8,14 @@ h1 {
   font-weight: 100;
 }
 
+#hive-cluster {
+  line-height: 1em;
+}
+
 #hivelogo {
   color: #000000;
   font-family: 'Italiana';
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 400;
   text-align: center;
 }
@@ -72,8 +76,18 @@ h2 {
 .cloud {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 100;
+  line-height: .3em;
+  text-align: center;
+}
+
+.cloudproject {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  font-weight: 100;
+  line-height: .3em;
   text-align: center;
 }
 
@@ -100,8 +114,6 @@ h2 {
   font-weight: 300;
   text-align: center;
 }
-
-h3 {}
 
 h4 {
   color: #303030;
@@ -197,7 +209,7 @@ ol {
 }
 
 /*BIO containers*/
-div.biohero-container {
+.biohero-container {
   margin: left;
 }
 
@@ -206,15 +218,14 @@ div.biohero-container {
   padding-top: 2.8em;
 }
 
-div.nametitle-container {
+.nametitle-container {
   width: auto;
   margin: center;
   line-height: 1em;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-bottom: 1px;
 }
 
-div.bodytext {
+.bodytext {
   width: auto;
   margin: left;
   padding-right: 100px;
@@ -223,42 +234,47 @@ div.bodytext {
 }
 
 /*HOMEPAGE containers*/
-div.homepagehero-container {
+.homepagehero-container {
   width:350px;
   line-height: 3em;
   float: right;
   padding-right: 200px;
 }
 
-div.homepagetitle-container {
+.homepagetitle-container {
   width:auto;
 }
 
-div.cloud {
+.cloud {
   width:auto;
   line-height: .75em;
 }
 
-div.newprojects-container {
+.newprojects-container {
   width: 350px;
   line-height: 2.75em;
   margin: 0 auto;
 }
 
-div.homepage-pink-links {
+.homepage-pink-links {
   width: 600px;
   margin: 0 auto;
   line-height: .75em;
   padding: 10px;
+  color: #DD7F7F;
 }
 
-div.homepage-highlight-containers-long {
+li {
+    margin: 15px 0;
+}
+
+.homepage-highlight-containers-long {
   width: 650px;
   margin: 0 auto;
   line-height: .75em;
 }
 
-div.homepage-highlight-containers-longer {
+.homepage-highlight-containers-longer {
   width: auto;
   margin: 0 auto;
   line-height: .75em;
@@ -300,6 +316,18 @@ img.resize {
   align: center;
   height: auto;
   width:40%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 body {
