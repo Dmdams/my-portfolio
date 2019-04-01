@@ -287,21 +287,25 @@ li {
 .bannerbar {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 100;
   text-align: center;
+  line-height: .4em;
+
 }
 
 .homepage-highlight-containers-long {
   width: 650px;
-  margin: 0 auto;
-  line-height: .75em;
+  position: absolute;
+  padding-left: 2em;
 }
 
 .homepage-highlight-containers-longer {
   width: auto;
   margin: 0 auto;
   line-height: .75em;
+  position: absolute;
+  padding-left: 2em;
 }
 
 .roles-container {
