@@ -115,11 +115,35 @@ h2 {
   text-align: center;
 }
 
-h4 {
+h3 {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+h5 {
+  color: #DD7F7F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.title {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.details {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em;
+  font-weight: 300;
+  text-align: left;
 }
 
 p {
@@ -320,7 +344,7 @@ img.resize {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 30%;
   padding: 10px;
 }
 
