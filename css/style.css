@@ -332,8 +332,8 @@ ol {
 /*BIO containers*/
 .biohero-container {
   margin: left;
-  background-image: url("images/Diana-Photo.jpg");
-  width: 100%;
+  background-image: url("../images/Diana-Photo.jpg");
+  background-size: cover;
   padding-top: 2.8em;
 }
 
