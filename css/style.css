@@ -15,6 +15,15 @@ h1 {
   position: absolute;
 }
 
+.biohero-container {
+  background-image: url('../images/Diana-Photo.jpg');
+  width: auto;
+  margin-top: 3.3em;
+  height: 20em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .hivelogo {
   color: #000000;
