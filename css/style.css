@@ -9,21 +9,27 @@ h1 {
 }
 
 .hive-cluster {
-  width:15em;
-  padding-left: .5em;
-  padding-top: 1em;
-  position: absolute;
+  background-image: url('../images/Hive-Case-Study-Image.jpg');
+  margin-top: 10px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hivewithlogo {
+  float: left;
+  padding-left: 4em;
 }
 
 .biohero-container {
   background-image: url('../images/Diana-Photo.jpg');
   width: auto;
   margin-top: 3.3em;
-  height: 20em;
+  height: 25em;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 1em;
 }
-
 
 .hivelogo {
   color: #000000;
@@ -36,9 +42,19 @@ h1 {
 #hivelogohomepage {
   text-align: center;
   position: absolute;
-  padding-top: 3.5em;
-  left: 18em;
+  padding-top: 4em;
+  left: 24em;
   margin:0 auto;
+}
+
+.yellow-hive-homepage {
+  background-image: url('../images/hive-background-yellow.jpg');
+  width: auto;
+  margin-top: 1em;
+  height: 45em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
 }
 
 .hero {
@@ -133,7 +149,7 @@ hr {
   float: left;
   margin-left: 1.5em;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 1.5em;
   display: inline-block;
 }
 
@@ -194,9 +210,8 @@ h2 {
   text-align: center;
   line-height: 1em;
   margin: 0 auto;
-  padding-left: .5em;
   padding-top: 3.5em;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 .contact {
@@ -338,6 +353,7 @@ ol {
   margin: 2px 1px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 /*BIO containers*/
@@ -350,7 +366,7 @@ ol {
   width: auto;
   margin: center;
   line-height: 1em;
-  padding-bottom: 1px;
+  padding-bottom: .5em;
 }
 
 .bodytext {
@@ -363,6 +379,7 @@ ol {
 
 .buttonspaces {
   position: relative;
+  padding-bottom: 2em;
 }
 
 /*HOMEPAGE containers*/
@@ -383,10 +400,36 @@ ol {
   line-height: .75em;
 }
 
+.new-project-cluster-Y {
+  background-image: url('../images/Yellow-Triangle-Sand.jpg');
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.new-project-cluster-P {
+  background-image: url('../images/Pink-Triangle-Sand.jpg');
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.new-project-cluster-B {
+  background-image: url('../images/Brown-Triangle-Sand.jpg');
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .newprojects-container {
   position: absolute;
-  padding-left: 16.5em;
+  padding-left: 17em;
 }
 
 .homepage-pink-links {
@@ -401,28 +444,95 @@ li {
     margin: 15px 0;
 }
 
-.bannerbar {
+.bannerbar-G {
   color: #303030;
   font-family: 'Roboto', sans-serif;
   font-size: 1.4em;
   font-weight: 100;
   text-align: center;
-  line-height: .4em;
+  padding-left: 12em;
+  line-height: 1.3em;
+}
 
+.bannerbar-G2 {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 6em;
+  line-height: 1.3em;
+}
+
+.bannerbar-P {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 10em;
+  line-height: 1.2em;
+}
+
+.bannerbar-Y {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 7em;
+  line-height: 1.2em;
 }
 
 .homepage-highlight-containers-long {
-  width: 650px;
+  width: auto;
+  margin: 1em auto;
   position: absolute;
   padding-left: 2em;
+  padding-top: .5em;
 }
 
 .homepage-highlight-containers-longer {
   width: auto;
-  margin: 0 auto;
-  line-height: .75em;
+  margin: 1em auto;
   position: absolute;
   padding-left: 2em;
+}
+
+.banner-bar-text-G {
+  background-image: url('../images/Grey-Banner-Bar.jpg');
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 6em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-bar-text-G2 {
+  background-image: url('../images/Grey-Banner-Bar.jpg');
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 6em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-bar-text-P {
+  background-image: url('../images/Pink-Banner-Bar.jpg');
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 8em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-bar-text-Y {
+  background-image: url('../images/Yellow-Banner-Bar.jpg');
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 6em;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .roles-container {
