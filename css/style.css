@@ -631,3 +631,40 @@ body {
   padding-right: 40px;
   padding-top: 5px;
 }
+
+@media screen and (max-width: 320px) {
+  .biohero-container {
+  background-image: url('../images/Diana-Photo.jpg');
+  width: auto;
+  height: 10em;
+}
+
+#biohero {
+  color: #8A3524;
+  width: 100px;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: .7em;
+  font-weight: 100;
+  float: left;
+  text-align: center;
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .biohero-container {
+  background-image: url('../images/Diana-Photo.jpg');
+  width: auto;
+  height: 5em;
+}
+
+#biohero {
+  color: #8A3524;
+  width: 200px;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 1.2em;
+  font-weight: 100;
+  float: left;
+  text-align: center;
+  display: inline-block;
+}
+}
