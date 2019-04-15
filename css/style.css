@@ -632,7 +632,7 @@ body {
   padding-top: 5px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .biohero-container {
   background-image: url('../images/Diana-Photo.jpg');
   width: auto;
@@ -649,8 +649,8 @@ body {
   text-align: center;
   display: inline-block;
 }
-
-@media screen and (min-width: 768px) {
+}
+@media screen and (max-width: 768px) {
   .biohero-container {
   background-image: url('../images/Diana-Photo.jpg');
   width: auto;
