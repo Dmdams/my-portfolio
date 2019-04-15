@@ -12,12 +12,15 @@
   <body>
     <nav>
       <a class="logo" href="index.html"><img src="images/D-Pink-Triangle.jpg" alt="LOGO"></a>
-        <div class="nav-spacing">
+      <div class="topnav" id="myTopnav">
           <a href="bio.html">ABOUT</a>
           <a href="#h2homepageUXWORK">UX WORK</a>
           <a href="#h2homepageDIGHER">DIGITAL HERITAGE</a>
           <a href="#h2homepageTECHCUL">TECH &amp; CULTURE</a>
           <a href="index.html#contact">CONTACT</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
         </nav>
 
@@ -86,6 +89,18 @@
       <a class="icon" href="mailto:dmdams@gmail.com" target="-blank"><img src="images/e-mail.jpg" alt="e-mail"></a>
       <a class="icon" href="https://www.instagram.com/dmdams" target="-blank"><img src="images/instagram.jpg" alt="instagram"></a>
       <a class="icon" href="https://www.linkedin.com/in/diana-dams/" target="-blank"><img src="images/linkedin.jpg" alt="linkedin"></a>
+
     </section>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
   </body>
 </html>
