@@ -85,6 +85,7 @@ h1 {
   height: auto;
 }
 
+
 hr {
   margin-top: 50px;
   margin-bottom: 50px
@@ -171,13 +172,30 @@ h2 {
   font-weight: 100;
 }
 
-.h2homepage {
+#h2homepageUXWORK {
   color: #303030;
   font-family: 'Roboto';
   font-size: 1.35em;
   font-weight: 100;
   text-align: center;
 }
+
+#h2homepageDIGHER {
+  color: #303030;
+  font-family: 'Roboto';
+  font-size: 1.35em;
+  font-weight: 100;
+  text-align: center;
+}
+
+#h2homepageTECHCUL {
+  color: #303030;
+  font-family: 'Roboto';
+  font-size: 1.35em;
+  font-weight: 100;
+  text-align: center;
+}
+
 
 .cloud {
   text-align: center;
@@ -214,7 +232,7 @@ h2 {
   padding-bottom: 2em;
 }
 
-.contact {
+#contact {
   color: #303030;
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
@@ -243,6 +261,7 @@ h2 {
   font-size: 1.2em;
   font-weight: 300;
   text-align: center;
+  text-decoration: none;
 }
 
 h3 {
@@ -343,7 +362,7 @@ ol {
   background-color: #FDCFBB;
   border: 2px solid #FDCFBB;
   color: #303030;
-  padding: 10px 18px;
+  padding: 15px 18px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -436,7 +455,7 @@ ol {
   width: 600px;
   margin: 0 auto;
   line-height: .75em;
-  padding: 10px;
+  padding: 1.2em;
   color: #DD7F7F;
 }
 
