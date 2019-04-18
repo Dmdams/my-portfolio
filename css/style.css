@@ -647,6 +647,31 @@ body {
   padding-right: 40px;
   padding-top: 5px;
 }
+
+.UXArch {
+  font-family: 'Yanone Kaffeesatz';
+  font-size: .8em;
+  color: #303030;
+  font-weight: 100;
+}
+
+.hero {
+  color: #C34A33;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 1em;
+  text-align: center;
+
+}
+
+.homepagehero-container {
+  width:350px;
+  line-height: 3em;
+  vertical-align:top;
+  text-align: center;
+}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -654,6 +679,34 @@ body {
     width: 100%;
     height: 100%;
   }
+
+  .UXArch {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 1.2em;
+    color: #303030;
+    font-weight: 100;
+  }
+
+  .homepage-title-Diana-Logo {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .hero {
+    color: #C34A33;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 2.8em;
+    font-weight: 100;
+    text-align: center;
+    float: right;
+  }
+
+  .homepagehero-container {
+    width:350px;
+    line-height: 3em;
+    vertical-align:top;
+    display:inline-block;
+    float:right;
   }
 }
 
@@ -663,6 +716,30 @@ body {
     width: 100%;
     height: 100%;
   }
+  .UXArch {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 1.2em;
+    color: #303030;
+    font-weight: 100;
+  }
+
+  .hero {
+    color: #C34A33;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 2.8em;
+    font-weight: 100;
+    text-align: center;
+    float: right;
+  }
+
+  .homepagehero-container {
+    width:350px;
+    line-height: 3em;
+    vertical-align:top;
+    display:inline-block;
+    float:right;
+  }
+}
 
 /*Style the navigation menus */
 .topnav {
