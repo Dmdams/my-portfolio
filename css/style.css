@@ -372,7 +372,6 @@ ol {
   margin: 2px 1px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
 }
 
 /*BIO containers*/
@@ -670,7 +669,89 @@ body {
   line-height: 3em;
   vertical-align:top;
   text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
 }
+
+.new-project-cluster-Y {
+  background-image: url('../images/Mobile-triangles.jpg');
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.new-project-cluster-P {
+  background-image: url('../images/Mobile-Triangle-Peach.jpg');
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.new-project-cluster-B {
+  background-image: url('../images/Mobile-Triangle-Brown.jpg');
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.newprojects-container {
+  position: absolute;
+  padding-left: 1.6em;
+}
+
+.newprojects {
+  color: #303030;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 2em;
+  width: 60%;
+  font-weight: 50;
+  text-align: center;
+  line-height: 1em;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.button {
+  background-color: #FDCFBB;
+  border: 2px solid #FDCFBB;
+  color: #303030;
+  padding: 10px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  margin: 2px 1px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.icon {
+  border: none;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+.biohero-container {
+  background-image: url('../images/Diana-Photo-Mobile.jpg');
+  width: auto;
+  margin-top: 3.3em;
+  height: 25em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+
 
 }
 
@@ -706,8 +787,90 @@ body {
     line-height: 3em;
     vertical-align:top;
     display:inline-block;
-    float:right;
   }
+
+  .new-project-cluster-Y {
+    background-image: url('../images/Mobile-Triangle-Tablet.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .new-project-cluster-P {
+    background-image: url('../images/Peach-Triangle-Tablet.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .new-project-cluster-B {
+    background-image: url('../images/Brown-Triangle-Tablet.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .newprojects-container {
+    position: absolute;
+    padding-left: 11em;
+  }
+
+  .newprojects {
+    color: #303030;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 3em;
+    width: 60%;
+    font-weight: 50;
+    text-align: center;
+    line-height: 1em;
+    margin: 0 auto;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+  }
+
+  .button {
+    background-color: #FDCFBB;
+    border: 2px solid #FDCFBB;
+    color: #303030;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    margin: 2px 1px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .icon {
+    width: 75%;
+    height: 75%;
+    border: none;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+  }
+
+  .biohero-container {
+    background-image: url('../images/Diana-Photo.jpg');
+    width: auto;
+    margin-top: 3.3em;
+    height: 25em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+
+
 }
 
 
@@ -723,6 +886,7 @@ body {
     font-weight: 100;
   }
 
+
   .hero {
     color: #C34A33;
     font-family: 'Yanone Kaffeesatz';
@@ -732,6 +896,14 @@ body {
     float: right;
   }
 
+  .hive-cluster {
+    background-image: url('../images/Hive-Case-Study-Image.jpg');
+    margin-top: 10px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .homepagehero-container {
     width:350px;
     line-height: 3em;
@@ -739,6 +911,87 @@ body {
     display:inline-block;
     float:right;
   }
+
+  .new-project-cluster-Y {
+    background-image: url('../images/Yellow-Triangle-Sand.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .new-project-cluster-P {
+    background-image: url('../images/Pink-Triangle-Sand.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .new-project-cluster-B {
+    background-image: url('../images/Brown-Triangle-Sand.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .newprojects-container {
+    position: absolute;
+    padding-left: 17em;
+  }
+
+  .newprojects {
+    color: #303030;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 3em;
+    width: 60%;
+    font-weight: 50;
+    text-align: center;
+    line-height: 1em;
+    margin: 0 auto;
+    padding-top: 3.5em;
+    padding-bottom: 2em;
+  }
+
+  .button {
+    background-color: #FDCFBB;
+    border: 2px solid #FDCFBB;
+    color: #303030;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    margin: 2px 1px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .icon {
+    border: none;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+  }
+
+  .biohero-container {
+    background-image: url('../images/Diana-Photo.jpg');
+    width: auto;
+    margin-top: 3.3em;
+    height: 25em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+
+
 }
 
 /*Style the navigation menus */

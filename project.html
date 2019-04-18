@@ -8,18 +8,26 @@
       <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <nav>
-      <a class="logo" href="index.html"><img src="images/D-Pink-Triangle.jpg" alt="LOGO"></a>
-      <div class="topnav" id="myTopnav">
-        <a href="bio.html">ABOUT</a>
-        <a href="index.html#h2homepageUXWORK">UX WORK</a>
-        <a href="index.html#h2homepageDIGHER">DIGITAL HERITAGE</a>
-        <a href="index.html#h2homepageTECHCUL">TECH &amp; CULTURE</a>
-        <a href="project.html#contact">CONTACT</a>
-      </div>
-      </nav>
+    <a class="logo" href="index.html"><img src="images/D-Pink-Triangle.jpg" alt="LOGO"></a>
+
+   <!-- Top Navigation Menu -->
+   <div class="topnav">
+     <a href="#home" class="active">Logo</a>
+<!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+
+<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
 <div class="yellow-hive-homepage">
       <div id="hivelogohomepage">
@@ -343,5 +351,17 @@
             <a class="icon" href="https://www.instagram.com/dmdams" target="-blank"><img src="images/instagram.jpg" alt="instagram"></a>
             <a class="icon" href="https://www.linkedin.com/in/diana-dams/" target="-blank"><img src="images/linkedin.jpg" alt="linkedin"></a>
           </section>
+
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+
         </body>
       </html>
