@@ -743,15 +743,56 @@ body {
 }
 
 .biohero-container {
-  background-image: url('../images/Diana-Photo-Mobile.jpg');
+  background-image: url('../images/Diana-Photo.jpg');
   width: auto;
   margin-top: 3.3em;
-  height: 25em;
+  height: 7em;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 1em;
 }
 
+.biohero-container {
+  background-image: url('../images/Diana-Photo.jpg');
+  width: auto;
+  margin-top: 1em;
+  height: 10em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+
+#biohero {
+  color: #8A3524;
+  width: 250px;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 1.15em;
+  font-weight: 100;
+  float: left;
+  margin-left: 1.5em;
+  text-align: center;
+  padding-top: .5em;
+}
+
+.name {
+  color: #19675D;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+  padding-top: .5em;
+  padding-bottom: .3em;
+}
+
+.titlebiopage {
+  color: #303030;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 1.3em;
+  font-weight: 100;
+  text-align: center;
+  padding: .5em;
+}
+}
 
 }
 
@@ -863,14 +904,44 @@ body {
   .biohero-container {
     background-image: url('../images/Diana-Photo.jpg');
     width: auto;
-    margin-top: 3.3em;
-    height: 25em;
+    margin-top: 2em;
+    height: 20em;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 1em;
   }
 
+  #biohero {
+    color: #8A3524;
+    width: 420px;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 2em;
+    font-weight: 100;
+    float: left;
+    margin-left: 1.5em;
+    text-align: center;
+    padding-top: 1.5em;
+    display: inline-block;
+  }
 
+  .name {
+    color: #19675D;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .3em;
+  }
+
+  .titlebiopage {
+    color: #303030;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 1.6em;
+    font-weight: 100;
+    text-align: center;
+    padding: .5em;
+  }
 }
 
 
@@ -984,13 +1055,52 @@ body {
   .biohero-container {
     background-image: url('../images/Diana-Photo.jpg');
     width: auto;
-    margin-top: 3.3em;
+    margin-top: 2em;
     height: 25em;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 1em;
   }
 
+  #biohero {
+    color: #8A3524;
+    width: 420px;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 2em;
+    font-weight: 100;
+    float: left;
+    margin-left: 1.5em;
+    text-align: center;
+    padding-top: 1.5em;
+    display: inline-block;
+  }
+
+  .name {
+    color: #19675D;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .3em;
+  }
+
+  .titlebiopage {
+    color: #303030;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 1.6em;
+    font-weight: 100;
+    text-align: center;
+    padding: .5em;
+  }
+
+  .bodytext {
+    width: auto;
+    margin: left;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: justify;
+  }
 
 }
 
