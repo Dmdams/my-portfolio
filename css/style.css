@@ -764,7 +764,7 @@ body {
 
 #biohero {
   color: #8A3524;
-  width: 250px;
+  width: 230px;
   font-family: 'Yanone Kaffeesatz';
   font-size: 1.15em;
   font-weight: 100;
@@ -792,6 +792,54 @@ body {
   text-align: center;
   padding: .5em;
 }
+
+.bodytext {
+  width: auto;
+  margin: left;
+  padding-right: 35px;
+  padding-left: 35px;
+  text-align: justify;
+}
+
+.yellow-hive-homepage {
+  background-image: url('../images/hive-background-yellow.jpg');
+  width: auto;
+  margin-top: 2em;
+  height: 15em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+
+#hivelogohomepage {
+  text-align: center;
+  position: absolute;
+  padding-top: .5em;
+  left: 4.6em;
+  margin:0 auto;
+}
+
+.wfl2 {
+  width: 30%;
+  text-align: center;
+}
+
+.hivelogo {
+  color: #000000;
+  font-family: 'Italiana';
+  font-size: 2.5em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.cloudproject {
+  display: none;
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  line-height: .3em;
+  text-align: center;
 }
 
 }
@@ -941,6 +989,54 @@ body {
     font-weight: 100;
     text-align: center;
     padding: .5em;
+  }
+
+  .bodytext {
+    width: auto;
+    margin: left;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: justify;
+  }
+  .yellow-hive-homepage {
+    background-image: url('../images/hive-background-yellow.jpg');
+    width: auto;
+    margin-top: 1em;
+    height: 30em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+
+  #hivelogohomepage {
+    text-align: center;
+    position: absolute;
+    padding-top: 1.3em;
+    left: 14.5em;
+    margin:0 auto;
+  }
+
+  .wfl2 {
+    width: 60%;
+    height: auto;
+    text-align: center;
+  }
+
+  .hivelogo {
+    color: #000000;
+    font-family: 'Italiana';
+    font-size: 3.8em;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .cloudproject {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+    font-weight: 100;
+    line-height: .3em;
+    text-align: center;
   }
 }
 
@@ -1100,6 +1196,47 @@ body {
     padding-right: 100px;
     padding-left: 100px;
     text-align: justify;
+  }
+
+  .yellow-hive-homepage {
+    background-image: url('../images/hive-background-yellow.jpg');
+    width: auto;
+    margin-top: 1em;
+    height: 45em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+
+  #hivelogohomepage {
+    text-align: center;
+    position: absolute;
+    padding-top: 4em;
+    left: 24em;
+    margin:0 auto;
+  }
+
+  .wfl2 {
+    width: 60%;
+    height: auto;
+    text-align: center;
+  }
+
+  .hivelogo {
+    color: #000000;
+    font-family: 'Italiana';
+    font-size: 3.8em;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .cloudproject {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+    font-weight: 100;
+    line-height: .3em;
+    text-align: center;
   }
 
 }
