@@ -619,6 +619,13 @@ body {
   padding-top: 5px;
 }
 
+.column {
+  float: left;
+  width: 30%;
+  display: block;
+  padding: 10px;
+}
+
 .icon {
   border: none;
   padding-bottom: 5px;
@@ -874,23 +881,6 @@ body {
   font-weight: 100;
 }
 
-.column:nth-child(1n) {
-  width: 75%;
-  margin: 2em;
-  display: block;
-  text-align: center;
-}
-
-
-.details {
-  color: #303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: .8em;
-  font-weight: 300;
-  text-align: justify;
-  line-height: 1.5em;
-}
-
 .homepage-highlight-containers-longer {
   width: auto;
   margin: 1em auto;
@@ -945,6 +935,60 @@ body {
   padding-top: .1em;
   padding-left: .5em;
   line-height: 1.2em;
+}
+
+.details {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 1em;
+  width: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.column {
+  display: none;
+}
+
+.banner-bar-text-Y {
+  background-image: url('../images/Yellow-Banner-Bar.jpg');
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 6em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bannerbar-Y {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 1em;
+  line-height: 1.2em;
+}
+
+.bannerbar-G2 {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 1em;
+  line-height: 1.3em;
+}
+
+.banner-bar-text-G2 {
+  background-image: url('../images/Grey-Banner-Bar.jpg');
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 6em;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 }
@@ -1190,21 +1234,6 @@ body {
     font-weight: 100;
   }
 
-  .column {
-    float: left;
-    width: 30%;
-    display: block;
-  }
-
-  .details {
-    color: #303030;
-    font-family: 'Roboto', sans-serif;
-    font-size: .8em;
-    font-weight: 300;
-    text-align: left;
-    line-height: 1em;
-  }
-
   .homepage-highlight-containers-longer {
     width: auto;
     margin: 1em auto;
@@ -1258,6 +1287,59 @@ body {
     line-height: 1.3em;
   }
 
+  .details {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1em;
+  }
+
+  .column {
+    float: left;
+    width: 30%;
+    display: block;
+    padding: 10px;
+  }
+
+  .banner-bar-text-Y {
+    background-image: url('../images/Yellow-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 6em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bannerbar-Y {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 4em;
+    line-height: 1.2em;
+  }
+
+  .bannerbar-G2 {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 3em;
+    line-height: 1.3em;
+  }
+
+  .banner-bar-text-G2 {
+    background-image: url('../images/Grey-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 6em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
 }
 
@@ -1499,24 +1581,6 @@ body {
     font-weight: 100;
   }
 
-  .column {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    display: block;
-  }
-
-  .details {
-    color: #303030;
-    font-family: 'Roboto', sans-serif;
-    font-size: .8em;
-    font-weight: 300;
-    text-align: left;
-    line-height: 1em;
-    margin-left: 5em;
-    margin-right: 5em;
-  }
-
   .homepage-highlight-containers-longer {
     width: auto;
     margin: 1em auto;
@@ -1541,6 +1605,16 @@ body {
     text-align: center;
     padding-left: 12em;
     line-height: 1.3em;
+  }
+
+  .bannerbar-Y {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 7em;
+    line-height: 1.2em;
   }
 
   .banner-bar-text-P {
@@ -1588,6 +1662,42 @@ body {
     padding-left: 7em;
     line-height: 1.2em;
   }
+
+  .details {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1em;
+  }
+
+  .column {
+    float: left;
+    width: 30%;
+    display: block;
+    padding: 10px;
+  }
+
+  .bannerbar-G2 {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 6em;
+    line-height: 1.3em;
+  }
+
+  .banner-bar-text-G2 {
+    background-image: url('../images/Grey-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 6em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
 
 }
 
