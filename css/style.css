@@ -377,7 +377,7 @@ ol {
 /*BIO containers*/
 .biohero-container {
   margin: left;
-  padding-top: 2.8em;
+  padding-top: 3.3em;
 }
 
 .nametitle-container {
@@ -756,7 +756,7 @@ body {
 .biohero-container {
   background-image: url('../images/Diana-Photo.jpg');
   width: auto;
-  margin-top: 1em;
+  margin-top: 3.3em;
   height: 10em;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1010,7 +1010,7 @@ nav a{
     font-size: 10px;
     background-color: #fff;
     border: none;
-    padding-bottom: 20px;
+    padding-bottom: 23px;
     padding-right: 3px;
     padding-left: 3px;
     padding-top: 25px;
@@ -1131,7 +1131,7 @@ nav a{
   .biohero-container {
     background-image: url('../images/Diana-Photo.jpg');
     width: auto;
-    margin-top: 2em;
+    margin-top: 3.3em;
     height: 20em;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1513,7 +1513,7 @@ nav a{
   .biohero-container {
     background-image: url('../images/Diana-Photo.jpg');
     width: auto;
-    margin-top: 2em;
+    margin-top: 3.3em;
     height: 25em;
     background-size: cover;
     background-repeat: no-repeat;
