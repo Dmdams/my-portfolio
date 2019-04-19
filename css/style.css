@@ -874,7 +874,7 @@ body {
   font-weight: 100;
 }
 
-.column {
+.column:nth-child(1n) {
   width: 75%;
   margin: 2em;
   display: block;
