@@ -991,6 +991,36 @@ body {
   background-repeat: no-repeat;
 }
 
+nav {
+  background-color: #ffffff;
+  height: 70px;
+  position: Top;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1
+}
+
+nav a{
+    display: block;
+    float: left;
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    background-color: #fff;
+    border: none;
+    padding-bottom: 20px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 25px;
+    text-decoration: none;
+  }
+
+.topnav {
+  float:right;
+}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -1339,6 +1369,35 @@ body {
     height: 6em;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  nav {
+    background-color: #ffffff;
+    height: 70px;
+    position: Top;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1
+  }
+
+  nav a{
+      display: block;
+      float: left;
+      color: #303030;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      background-color: #fff;
+      border: none;
+      padding-bottom: 20px;
+      padding-right: 20px;
+      padding-top: 25px;
+      text-decoration: none;
+    }
+
+  .topnav {
+    float:right;
   }
 
 }
@@ -1698,47 +1757,34 @@ body {
     background-repeat: no-repeat;
   }
 
+  nav {
+    background-color: #ffffff;
+    height: 70px;
+    position: Top;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1
+  }
 
-}
+  nav a{
+      display: block;
+      float: left;
+      color: #303030;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      background-color: #fff;
+      border: none;
+      padding-bottom: 20px;
+      padding-right: 20px;
+      padding-top: 25px;
+      text-decoration: none;
+    }
 
-/*Style the navigation menus */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
+  .topnav {
+    float:right;
+  }
 
-/*Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display:none;
-}
 
-/*hamburger */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/*style the hamburger menu */
-.topnav a.icon {
-  background:black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/*Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/*Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
 }
