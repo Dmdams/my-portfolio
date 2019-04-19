@@ -284,7 +284,7 @@ h5 {
   font-size: .8em;
   font-weight: 300;
   text-align: center;
-  line-height: .4em;
+  line-height: 1.2em;
 }
 
 .details {
@@ -597,7 +597,19 @@ img.resize {
   width:40%;
 }
 
-.column {
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.column3 {
   float: left;
   width: 30%;
   padding: 10px;
@@ -842,6 +854,130 @@ body {
   text-align: center;
 }
 
+.homepage-pink-links {
+  width: 400px;
+  margin: 0 auto;
+  line-height: .75em;
+  padding: .1em;
+  color: #DD7F7F;
+}
+
+.hivecasestudyh3 {
+  color: #DD7F7F;
+  font-family: 'Roboto';
+  font-size: .8em;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+}
+
+.roles {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.roles-container {
+  width: 350px;
+  margin: 0 auto;
+  line-height: 1.2em;
+}
+
+.project-headers {
+  color: #303030;
+  font-family: 'Roboto';
+  font-size: 1.4em;
+  font-weight: 100;
+}
+
+.column1 {
+  width: 75%;
+  margin: 2em;
+  display: block;
+  text-align: center;
+}
+
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  display: none;
+}
+
+.column3 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  display: none;
+}
+
+.details {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+.homepage-highlight-containers-longer {
+  width: auto;
+  margin: 1em auto;
+  position: absolute;
+  padding-left: 2em;
+}
+
+.banner-bar-text-G {
+  background-image: url('../images/Grey-Banner-Bar.jpg');
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 6em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bannerbar-G {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+  padding-top: .5em;
+  padding-left: 1.5em;
+  line-height: 1.3em;
+}
+
+.banner-bar-text-P {
+  background-image: url('../images/Pink-Banner-Bar.jpg');
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 8em;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.homepage-highlight-containers-long {
+  width: auto;
+  margin: 1em auto;
+  position: absolute;
+  padding-left: .5em;
+  padding-top: .5em;
+}
+
+.bannerbar-P {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+  padding-top: .1em;
+  padding-left: .5em;
+  line-height: 1.2em;
+}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -1031,6 +1167,7 @@ body {
   }
 
   .cloudproject {
+    display: block;
     color: #303030;
     font-family: 'Roboto', sans-serif;
     font-size: 1.7em;
@@ -1038,6 +1175,136 @@ body {
     line-height: .3em;
     text-align: center;
   }
+
+  .homepage-pink-links {
+    width: 600px;
+    margin: 0 auto;
+    line-height: .75em;
+    padding: 1.2em;
+    color: #DD7F7F;
+  }
+
+  .hivecasestudyh3 {
+    color: #DD7F7F;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .roles {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .roles-container {
+    width: 700px;
+    margin: 0 auto;
+    line-height: 1.3em;
+  }
+
+  h1 {
+    color: #303030;
+    font-family: 'Roboto';
+    font-size: 1.3em;
+    font-weight: 100;
+  }
+
+  .project-headers {
+    color: #303030;
+    font-family: 'Roboto';
+    font-size: 1.8em;
+    font-weight: 100;
+  }
+
+  .column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    display: block;
+  }
+
+  .column2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    display: block;
+  }
+
+  .column3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    display: block;
+  }
+
+  details {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1em;
+  }
+
+  .homepage-highlight-containers-longer {
+    width: auto;
+    margin: 1em auto;
+    position: absolute;
+    padding-left: 2em;
+  }
+
+  .banner-bar-text-G {
+    background-image: url('../images/Grey-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 6em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bannerbar-G {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 8em;
+    line-height: 1.3em;
+  }
+
+  .banner-bar-text-P {
+    background-image: url('../images/Pink-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 8em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .homepage-highlight-containers-long {
+    width: auto;
+    margin: 1em auto;
+    position: absolute;
+    padding-left: 2em;
+    padding-top: .5em;
+  }
+
+  .bannerbar-P {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 8em;
+    line-height: 1.3em;
+  }
+
+
 }
 
 
@@ -1231,12 +1498,153 @@ body {
   }
 
   .cloudproject {
+    display: block;
     color: #303030;
     font-family: 'Roboto', sans-serif;
     font-size: 1.7em;
     font-weight: 100;
     line-height: .3em;
     text-align: center;
+  }
+
+  .homepage-pink-links {
+    width: 600px;
+    margin: 0 auto;
+    line-height: .75em;
+    padding: 1.2em;
+    color: #DD7F7F;
+  }
+
+  .hivecasestudyh3 {
+    color: #DD7F7F;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .roles {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .roles-container {
+    width: 800px;
+    margin: 0 auto;
+    line-height: 1.3em;
+  }
+
+  .project-headers {
+    color: #303030;
+    font-family: 'Roboto';
+    font-size: 2em;
+    font-weight: 100;
+  }
+
+  .column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    display: block;
+  }
+
+  .column2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    display: block;
+  }
+
+  .column3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    display: block;
+  }
+
+  details {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1em;
+  }
+
+  .homepage-highlight-containers-longer {
+    width: auto;
+    margin: 1em auto;
+    position: absolute;
+    padding-left: 2em;
+  }
+
+  .banner-bar-text-G {
+    background-image: url('../images/Grey-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 6em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bannerbar-G {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 12em;
+    line-height: 1.3em;
+  }
+
+  .banner-bar-text-P {
+    background-image: url('../images/Pink-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 8em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .homepage-highlight-containers-long {
+    width: auto;
+    margin: 1em auto;
+    position: absolute;
+    padding-left: 2em;
+    padding-top: .5em;
+  }
+
+  .bannerbar-P {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 10em;
+    line-height: 1.2em;
+  }
+
+  .banner-bar-text-Y {
+    background-image: url('../images/Yellow-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 6em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bannerbar-Y {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 7em;
+    line-height: 1.2em;
   }
 
 }
