@@ -597,24 +597,6 @@ img.resize {
   width:40%;
 }
 
-.column1 {
-  float: left;
-  width: 30%;
-  padding: 10px;
-}
-
-.column2 {
-  float: left;
-  width: 30%;
-  padding: 10px;
-}
-
-.column3 {
-  float: left;
-  width: 30%;
-  padding: 10px;
-}
-
 .row {
   content: "";
   display: table;
@@ -892,26 +874,13 @@ body {
   font-weight: 100;
 }
 
-.column1 {
+.column {
   width: 75%;
   margin: 2em;
   display: block;
   text-align: center;
 }
 
-.column2 {
-  float: left;
-  width: 30%;
-  padding: 10px;
-  display: none;
-}
-
-.column3 {
-  float: left;
-  width: 30%;
-  padding: 10px;
-  display: none;
-}
 
 .details {
   color: #303030;
@@ -1221,28 +1190,13 @@ body {
     font-weight: 100;
   }
 
-  .column1 {
+  .column {
     float: left;
     width: 30%;
-    padding: 10px;
     display: block;
   }
 
-  .column2 {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    display: block;
-  }
-
-  .column3 {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    display: block;
-  }
-
-  details {
+  .details {
     color: #303030;
     font-family: 'Roboto', sans-serif;
     font-size: .8em;
@@ -1545,34 +1499,22 @@ body {
     font-weight: 100;
   }
 
-  .column1 {
+  .column {
     float: left;
     width: 30%;
     padding: 10px;
     display: block;
   }
 
-  .column2 {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    display: block;
-  }
-
-  .column3 {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    display: block;
-  }
-
-  details {
+  .details {
     color: #303030;
     font-family: 'Roboto', sans-serif;
     font-size: .8em;
     font-weight: 300;
     text-align: left;
     line-height: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
   }
 
   .homepage-highlight-containers-longer {
