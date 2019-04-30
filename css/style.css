@@ -58,7 +58,7 @@ h1 {
 }
 
 .hero {
-  color: #C34A33;
+  color: #7D5050;
   font-family: 'Yanone Kaffeesatz';
   font-size: 2.8em;
   font-weight: 100;
@@ -142,7 +142,7 @@ hr {
 }
 
 #biohero {
-  color: #8A3524;
+  color: #7D5050;
   width: 420px;
   font-family: 'Yanone Kaffeesatz';
   font-size: 2em;
@@ -237,6 +237,8 @@ h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -247,6 +249,14 @@ h2 {
   font-weight: 100;
   text-align: center;
   padding: .5em;
+}
+
+.homepagelogocontainer {
+  background-image: url('../images/Grey-Sand-Bumps.png');
+  margin-top: 60px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #logo-text-homepage {
@@ -313,7 +323,7 @@ p {
 }
 
 .biohighlights {
-  color: #C34A33;
+  color: #7D5050;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   font-weight: 300;
@@ -416,33 +426,6 @@ ol {
 .cloud {
   width:auto;
   line-height: .75em;
-}
-
-.new-project-cluster-Y {
-  background-image: url('../images/Yellow-Triangle-Sand.jpg');
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 600px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.new-project-cluster-P {
-  background-image: url('../images/Pink-Triangle-Sand.jpg');
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 600px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.new-project-cluster-B {
-  background-image: url('../images/Brown-Triangle-Sand.jpg');
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 600px;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .newprojects-container {
@@ -553,6 +536,127 @@ li {
   background-repeat: no-repeat;
 }
 
+.digital-reconstruction-1{
+  background-image: url('../images/Digital-Reconstruction-Santa-Cristina-1.png');
+  margin-top: 60px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.digital-reconstruction-text-1a {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  width: 600px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 10em;
+  line-height: 1.2em;
+  padding-bottom: 20px;
+}
+
+.digital-reconstruction-text-1b {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8em;
+  width: 600px;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 14em;
+  line-height: 1.2em;
+}
+
+.digital-reconstruction-2{
+  background-image: url('../images/Digital-Reconstruction-Temple-Apollo-Claros-2.png');
+  margin-top: 0px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.digital-reconstruction-text-2a {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  width: 1000px;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 2.3em;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  line-height: 1.2em;
+}
+
+.digital-reconstruction-text-2b {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8em;
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.digital-reconstruction-3{
+  background-image: url('../images/Digital-Reconstruction-Temple-Poseidon-Sounion-3.png');
+  margin-top: 0px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.digital-reconstruction-text-3a {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  width: 400px;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 75px;
+  margin-right: 14em;
+}
+
+.digital-reconstruction-text-3b {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8em;
+  font-weight: 100;
+  padding-top: 20px;
+  margin-right: 22em;
+}
+
+.digital-reconstruction-4{
+  background-image: url('../images/Digital-Reconstruction-Temple-Apollo-Didyma-4.png');
+  margin-top: 0px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.digital-reconstruction-text-4a {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  font-weight: 100;
+  width: 230px;
+  text-align: center;
+  padding-left: 16em;
+  padding-top: 75px;
+  line-height: 1.2em;
+}
+
+.digital-reconstruction-text-4b {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8em;
+  font-weight: 100;
+  width: 300px;
+  padding-top: 20px;
+  padding-left: 21.3em;
+  line-height: 1.2em;
+}
+
 .roles-container {
   width: 800px;
   margin: 0 auto;
@@ -576,11 +680,12 @@ nav a{
     float: left;
     color: #303030;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #fff;
     border: none;
+    margin-right: 30px;
     padding-bottom: 20px;
-    padding-right: 20px;
+    padding-right: 25px;
     padding-top: 25px;
     text-decoration: none;
   }
@@ -614,9 +719,9 @@ body {
 .logo {
   border: none;
   padding-bottom: 5px;
-  padding-left: 5px;
+  padding-left: 8px;
   padding-right: 5px;
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .column {
@@ -628,6 +733,8 @@ body {
 
 .icon {
   border: none;
+  width: 40px;
+  height: 40px;
   padding-bottom: 5px;
   padding-left: 40px;
   padding-right: 40px;
@@ -656,9 +763,10 @@ body {
 }
 
 .hero {
-  color: #C34A33;
+  color: #7D5050;
   font-family: 'Yanone Kaffeesatz';
   font-size: 2em;
+  width: 440px;
   font-weight: 100;
   line-height: 1em;
   text-align: center;
@@ -666,25 +774,14 @@ body {
 }
 
 .homepagehero-container {
-  width:350px;
+  width:800px;
   line-height: 3em;
-  vertical-align:top;
   text-align: center;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-top: 3.5em;
 }
 
 .new-project-cluster-Y {
   background-image: url('../images/Mobile-triangles.jpg');
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.new-project-cluster-P {
-  background-image: url('../images/Mobile-Triangle-Peach.jpg');
   margin-top: 10px;
   margin-bottom: 10px;
   height: 300px;
@@ -764,7 +861,7 @@ body {
 }
 
 #biohero {
-  color: #8A3524;
+  color: #7D5050;
   width: 230px;
   font-family: 'Yanone Kaffeesatz';
   font-size: 1.15em;
@@ -1042,7 +1139,7 @@ nav a{
   }
 
   .hero {
-    color: #C34A33;
+    color: #7D5050;
     font-family: 'Yanone Kaffeesatz';
     font-size: 2.8em;
     font-weight: 100;
@@ -1059,15 +1156,6 @@ nav a{
 
   .new-project-cluster-Y {
     background-image: url('../images/Mobile-Triangle-Tablet.jpg');
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .new-project-cluster-P {
-    background-image: url('../images/Peach-Triangle-Tablet.jpg');
     margin-top: 10px;
     margin-bottom: 10px;
     height: 500px;
@@ -1139,7 +1227,7 @@ nav a{
   }
 
   #biohero {
-    color: #8A3524;
+    color: #7D5050;
     width: 420px;
     font-family: 'Yanone Kaffeesatz';
     font-size: 2em;
@@ -1417,7 +1505,7 @@ nav a{
 
 
   .hero {
-    color: #C34A33;
+    color: #7D5050;
     font-family: 'Yanone Kaffeesatz';
     font-size: 2.8em;
     font-weight: 100;
@@ -1443,15 +1531,6 @@ nav a{
 
   .new-project-cluster-Y {
     background-image: url('../images/Yellow-Triangle-Sand.jpg');
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .new-project-cluster-P {
-    background-image: url('../images/Pink-Triangle-Sand.jpg');
     margin-top: 10px;
     margin-bottom: 10px;
     height: 600px;
@@ -1521,7 +1600,7 @@ nav a{
   }
 
   #biohero {
-    color: #8A3524;
+    color: #7D5050;
     width: 420px;
     font-family: 'Yanone Kaffeesatz';
     font-size: 2em;
