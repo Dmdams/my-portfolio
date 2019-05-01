@@ -370,16 +370,10 @@ ol {
 /*** button ***/
 .button {
   background-color: #FDCFBB;
-  border: 2px solid #FDCFBB;
   color: #303030;
-  padding: 15px 18px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 1.2em;
-  margin: 2px 1px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -634,15 +628,19 @@ li {
   background-repeat: no-repeat;
 }
 
+.didyma-spacing-button {
+  padding-top: 75px;
+  width:350px;
+  float: right;
+  padding-right: 30px;
+}
+
 .digital-reconstruction-text-4a {
   color: #303030;
   font-family: 'Roboto', sans-serif;
   font-size: 2.5em;
   font-weight: 100;
-  width: 230px;
   text-align: center;
-  padding-left: 16em;
-  padding-top: 75px;
   line-height: 1.2em;
 }
 
@@ -651,10 +649,9 @@ li {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8em;
   font-weight: 100;
-  width: 300px;
   padding-top: 20px;
-  padding-left: 21.3em;
   line-height: 1.2em;
+  padding-bottom: 30px;
 }
 
 .roles-container {
@@ -694,7 +691,21 @@ nav a{
   float:right;
 }
 
+.topnav1:hover {
+  color: #FFA47C;
+}
 
+.topnav2:hover {
+  color: #FFA47C;
+}
+
+.topnav3:hover {
+  color: #FFA47C;
+}
+
+.topnav4:hover {
+  color: #FFA47C;
+}
 
 img.resize {
   align: center;
@@ -830,6 +841,12 @@ body {
   margin: 2px 1px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+  background-color: #7D5050; /* Purple*/
+  border: 2px solid #7D5050;
+  color: white;
 }
 
 .icon {
