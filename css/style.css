@@ -23,6 +23,95 @@ h1 {
 
 .pie-charts {
   display: inline-block;
+  margin: 1em;
+}
+
+#honey-comb-colors {
+  margin: 1em;
+}
+
+.typeface-column {
+  float: left;
+  width: 45%;
+  padding: 10px;
+  margin-left: 1em;
+}
+
+.typeface-row:after {
+  content: "";
+  display: table;
+  clear:both;
+
+}
+
+.typeface-italiana-header {
+  font-size: 1.5em;
+  font-family: 'Italiana';
+  margin-bottom: 10px;
+}
+
+#typeface-italiana-letters {
+  font-size: 6em;
+  font-family: 'Italiana';
+}
+
+.typeface-italiana-font-size-header {
+  font-size: 1.5em;
+  font-family: 'Italiana';
+  margin-bottom: 10px;
+}
+
+.typeface-italiana-typoheader {
+  text-align: left;
+  font-family: 'Italiana';
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.typeface-italiana-paragraph {
+  text-align: justify;
+  font-family: 'Italiana';
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.typeface-roboto-header {
+  font-size: 1.5em;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+#typeface-roboto-letters {
+  font-size: 6em;
+  font-family: 'Roboto';
+}
+
+.typeface-roboto-font-size-header1 {
+  font-size: 1.5em;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.typeface-roboto-font-size-header2 {
+  font-weight: 300;
+}
+
+.typeface-roboto-typoheader {
+  text-align: left;
+  font-family: 'roboto';
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.typeface-roboto-paragraph {
+  text-align: justify;
+  font-family: 'Roboto';
+  font-size: 1em;
+  font-weight: 100;
+  margin-bottom: 10px;
 }
 
 .biohero-container {
@@ -84,7 +173,7 @@ h1 {
 }
 
 .wfl {
-  width: 100%;
+width: 100%;
   height: auto;
 }
 
@@ -631,12 +720,19 @@ li {
   margin-right: 22em;
 }
 
-.digital-reconstruction-4{
+.digital-reconstruction-4 {
   background-image: url('../images/Digital-Reconstruction-Temple-Apollo-Didyma-4.png');
   margin-top: 0px;
   height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.didyma-spacing-button {
+  padding-top: 75px;
+  width:350px;
+  float: right;
+  padding-right: 30px;
 }
 
 .digital-reconstruction-text-4a {
@@ -663,31 +759,7 @@ li {
   line-height: 1.2em;
 }
 
-.didyma-spacing-button {
-  padding-top: 75px;
-  width:350px;
-  float: right;
-  padding-right: 30px;
-}
 
-.digital-reconstruction-text-4a {
-  color: #303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.5em;
-  font-weight: 100;
-  text-align: center;
-  line-height: 1.2em;
-}
-
-.digital-reconstruction-text-4b {
-  color: #303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8em;
-  font-weight: 100;
-  padding-top: 20px;
-  line-height: 1.2em;
-  padding-bottom: 30px;
-}
 
 .roles-container {
   width: 800px;
