@@ -21,6 +21,10 @@ h1 {
   padding-left: 4em;
 }
 
+.pie-charts {
+  display: inline-block;
+}
+
 .biohero-container {
   background-image: url('../images/Diana-Photo.png');
   width: auto;
@@ -633,6 +637,30 @@ li {
   height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.digital-reconstruction-text-4a {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  width: 350px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 15em;
+  line-height: 1.2em;
+  padding-bottom: 20px;
+}
+
+.digital-reconstruction-text-4b {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8em;
+  width: 400px;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 20.5em;
+  line-height: 1.2em;
 }
 
 .didyma-spacing-button {
