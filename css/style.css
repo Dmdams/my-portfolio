@@ -934,7 +934,7 @@ body {
   padding-bottom: 1em;
 }
 
-.button {
+.hive-button {
   background-color: #FDCFBB;
   border: 2px solid #FDCFBB;
   color: #303030;
@@ -950,7 +950,31 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.button:hover {
+.hive-button:hover {
+  background-color: #7D5050; /* Purple*/
+  border: 2px solid #7D5050;
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.hive-button {
+  background-color: #FDCFBB;
+  border: 2px solid #FDCFBB;
+  color: #303030;
+  padding: 10px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  margin: 2px 1px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.hive-button:hover {
   background-color: #7D5050; /* Purple*/
   border: 2px solid #7D5050;
   color: white;
