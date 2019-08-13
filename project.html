@@ -11,16 +11,38 @@
   </head>
   <body>
 
-    <nav>
+    <content style="display: none; text-align: left;">
       <a class="logo" href="index.html"><img src="images/Green-D-Triangle-Logo.jpg" alt="LOGO"></a>
+          <menu>
+            <label for="trigger">
+            <input id="trigger" type="checkbox" />
+            <section class="drawer-list">
+              <ul>
+                <li><a href="bio.html">ABOUT</a></li>
+                <li><a href="index.html">UX WORK</a></li>
+                <li><a href="digital.html">RECONSTRUCTIONS</a></li>
+                <li><a href="digital.html#contact">CONTACT</a></li>
+              </ul>
+            </section>
+            <hamburger> <i></i>
+              <text>
+                <close>close</close>
+               
+              </text>
+            </hamburger>
+            </label>
+          </menu>
+    </content>
+    <nav class="menu">
+      <a class="logo" href="index.html"><img  id="logo" src="images/Green-D-Triangle-Logo.jpg" alt="LOGO"></a>
+
       <div class="topnav" id="myTopnav">
           <a class="topnav1" href="bio.html">ABOUT</a>
           <a class="topnav2" href="index.html#h2homepageUXWORK">UX WORK</a>
           <a class="topnav3" href="digital.html">RECONSTRUCTIONS</a>
-          <a class="topnav4" href="project.html#contact">CONTACT</a>
-          </a>
-        </div>
-        </nav>
+          <a class="topnav4" href="digital.html#contact">CONTACT</a>
+          </div>
+    </nav>
 
 <div class="yellow-hive-homepage">
       <div class="hivelogohomepage">
@@ -33,7 +55,7 @@
       </div>
 
         <div class="homepage-pink-links">
-            <a href="https://invis.io/EHOSBYZ5MX9" target="_blank" class="hivecasestudyh3">View Desktop Prototype | </a><a href="https://invis.io/H2OKAY28PTG" target="_blank" class="hivecasestudyh3">View Mobile Prototype</a>
+            <a href="https://invis.io/EHOSBYZ5MX9" target="_blank" class="hivecasestudyh3">View Desktop Prototype   </a><a href="https://invis.io/H2OKAY28PTG" target="_blank" class="hivecasestudyh3">View Mobile Prototype</a>
             </div>
         <div class="roles-container">
             <p class="roles">Role: UX Design, UX Research, Visual Design, Brand Identity</p>
@@ -105,7 +127,7 @@
             </div>
 
       <section class="bodytext">
-        <h2>Finding Design Direction through Research Results</h2>
+        <h2 style="line-height: 1.3em">Finding Design Direction through Research Results</h2>
           <p>Below are some highlights gathered from the user survey:</p>
         </section>
           <img class="pie-charts" src="images/Pie-Chart-Grey.png" alt="Graph">
@@ -113,7 +135,7 @@
           <img class="pie-charts" src="images/Pie-Chart-Yellow.png" alt="Graph">
 
       <section class="bodytext">
-          <h2>Looking Closer at the Competitors</h2>
+          <h2 style="line-height: 1.3em">Looking Closer at the Competitors</h2>
             <p>The user survey results surprised. me. I thought I would have more clear-cut answers. But according to the survey results - they want it all! All users use their cloud storage system for both personal and business purposes. They want the capabilities for storage, sharing, and backing-up old files. Users want to be able to include documents, photos, old files, web pages and media. Cloud storage service usage is split almost equally between daily, weekly, and monthly users. Half are  happy with their organizing system and half are not. Yet at the same time, 61% want to customize it. The key takeaway from these survey results confirmed my hunch. Users want the best of all the cloud storage services combined in one place.</p>
             <p>In order to figure out how to proceed with Hive, I needed to figure out where to position it in the market and how to differentiate it from competitors. I did a competitive analysis in order to identify the weaknesses, strengths, threats, and opportunities. Based on my user survey results: Google Drive, Dropbox, and Pinterest were popular cloud storage service choices.</p>
           <div class="centered">
@@ -123,7 +145,7 @@
           <p>Since Hive was to become a combination of all of the most useful and stand-out qualities of it’s competitors - I focused on identifying the main strengths that are specific to each of the most popular cloud storage service companies. Some of the key takeaways included: having accessible platforms on many devices, ease of collaboration, ability to share/unshare, document workspaces, visually appealing platforms, catchy company lingo, customizable boards, flexible storage options, easy transferring and sharing, and a simple/user-friendly interface.</p>
           <p>With this list, I had the main essentials of what Hive would provide for its users. It felt like a solid place to begin, in the pursuit of making Hive - ‘Your Go-To Cloud Storage.’</p>
 
-        <h2>Bringing Hive Users to Life</h2>
+        <h2 style="line-height: 1.3em">Bringing Hive Users to Life</h2>
           <p>Now that I figured out who my users are, I needed to create their unique personalities, motivations, and stories in a realistic way. This way, I could refer back to them, to validate decisions as I continued through the design process.</p>
           <p>Meet Verenice, Boris and Olivia. Our first Hivers! They represent a diverse set of needs and motivations that can be met through the use of Hive cloud storage.</p>
         <h2>View User Personas</h2>
@@ -203,7 +225,10 @@
                 <p>I chose Italiana as the exclusive typeface for the hive logo, and Roboto for the primary typeface.  I chose both of these fonts because of their elegance and simplicity.  They fit the emotions and personality that I wanted Hive to embody.</p>
               </section>
 
-              <img id="honey-comb-colors" src="images/Honey-Comb-Colors.png" alt="Colors">
+              <div class="honey-comb-colors">
+
+              </div>
+             <!--  <img id="honey-comb-colors" src="images/Honey-Comb-Colors.png" alt="Colors"> -->
 
               <div class="typeface-row">
                 <div class="typeface-column">
@@ -228,7 +253,7 @@
               <hr>
         <h1 class="project-headers">Chapter 4: Information Architecture</h1>
           <section class="bodytext">
-            <h2>Identifying and Mapping the Primary Goals of the Users</h2>
+            <h2 style="line-height: 1.3em">Identifying and Mapping the Primary Goals of the Users</h2>
                 <p>Now that the personality and branding of Hive was in motion, it was time to create the user stories and flows.  With my previously created user personas in mind, I identified the high, medium and low priority tasks to reach the minimum viable product.</p>
               </section>
 
@@ -250,7 +275,7 @@
               <img class="wfl2" src="images/Graph-3.jpg" alt="Graphs">
           <div class="bodytext">
               <p>After creating the User Stories and User Flows, I was beginning to have a much better idea of the navigation structure of Hive’s interface.  To further plan for the next steps, I created a Content Strategy to fill in more of the blanks in my content hierarchy and navigation structure.</p>
-            <h2>Hive begins to take shape through Wireframing</h2>
+            <h2 style="line-height: 1.4em">Hive begins to take shape through Wireframing</h2>
               <p>Now that the content strategy was mapped out, the priorities of the user stories were clear, and the user flows were mapped out - it was time to build the skeletal structure of the site through wireframing.  This started with simple sketches that evolved into low fidelity wireframes.</p>
                 </div>
               <img class="wfl2" src="images/Prototype-Sketches1.png" alt="Prototypes Sketches">
@@ -271,7 +296,7 @@
               <a href="https://docs.google.com/document/d/1Qd2IMLls9QcyAlnJFJicnBY3U3xbE3y8gwlfBeFi3q4/edit" target="_blank" class="hivecasestudyh3">View User Survey Script</a>
                 </div>
           <div class="bodytext">
-            <h2>Create an intuitive navigation structure through reiterations</h2>
+            <h2 style="line-height: 1.3em">Create an intuitive navigation structure through reiterations</h2>
               <p>Watching real users navigate through my wireframe prototypes, was so useful to see how their thought process worked as they moved through the website.  Based on the commentary, I focused in on the following revisions and implemented them into the creation of my high fidelity prototype:</p>
                 <ul>
                   <li>Make better use of UI Elements for clarity in navigation.</li>
@@ -351,7 +376,7 @@
 
             <img class="wfl" src="images/Bottom-Banner.png" alt="bottom bar">
         <div id="contact">GET IN CONTACT</div>
-        <section>
+        <section style="padding-bottom: 3em">
           <a class="icon" href="https://github.com/Dmdams" target="-blank"><img src="images/bottom-bar-github.png" alt="github"></a>
           <a class="icon" href="https://twitter.com/ZeTango" target="-blank"><img src="images/bottom-bar-twitter.png" alt="twitter"></a>
           <a class="icon" href="mailto:dmdams@gmail.com" target="-blank"><img src="images/bottom-bar-email.png" alt="e-mail"></a>
