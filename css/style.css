@@ -29,6 +29,10 @@ h1 {
 #honey-comb-colors {
   margin: 1em;
 }
+.honey-comb-colors
+{
+  background-image: url('../images/Honey-Comb-Colors.png');
+}
 
 .typeface-column {
   float: left;
@@ -258,15 +262,17 @@ hr {
 }
 
 .hive-image {
-  width: 7em;
+  width: 9em;
+  padding-left:0.5em;
 }
 
 h2 {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.15em;
+  font-size: 2.15em;
   text-align: left;
   font-weight: 100;
+  line-height: 1.3em
 }
 
 #h2homepageUXWORK {
@@ -408,9 +414,10 @@ h5 {
 p {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  font-size: .8em;
+  font-size: 1em;
   font-weight: 300;
   text-align: justify;
+  line-height: 1.4em;
 }
 
 .roles {
@@ -538,12 +545,14 @@ ol {
 
 li {
     margin: 15px 0;
+        font-size: 1.3em;
+    line-height: 1.7em;
 }
 
 .bannerbar-G {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  width: 450px;
+  /*width: 450px;*/
   font-size: .8em;
   font-weight: 100;
   text-align: center;
@@ -634,7 +643,7 @@ li {
 
 .digital-reconstruction-1{
   background-image: url('../images/Digital-Reconstruction-Santa-Cristina-1.png');
-  margin-top: 60px;
+  margin-top: 63px;
   height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -648,20 +657,25 @@ li {
   font-weight: 100;
   text-align: center;
   padding-top: 50px;
-  padding-left: 10em;
+  float: right;
+  /*padding-left: 50%;*/
   line-height: 1.2em;
   padding-bottom: 20px;
+  padding-right:1em;
 }
 
 .digital-reconstruction-text-1b {
   color: #303030;
   font-family: 'Roboto', sans-serif;
   font-size: 1.8em;
-  width: 600px;
+
   font-weight: 100;
   text-align: center;
-  padding-left: 14em;
+  float: right;
+  width: 400px;
+  /*padding-left: 60%;*/
   line-height: 1.2em;
+  padding-right: 1em;
 }
 
 .digital-reconstruction-2{
@@ -676,7 +690,7 @@ li {
   color: #303030;
   font-family: 'Roboto', sans-serif;
   font-size: 2.5em;
-  width: 1000px;
+  /*width: 1000px;*/
   font-weight: 100;
   text-align: center;
   padding-left: 2.3em;
@@ -745,10 +759,13 @@ li {
   font-weight: 100;
   text-align: center;
   padding-top: 50px;
-  padding-left: 15em;
+  float: right;
+  /*padding-left: 15em;*/
   line-height: 1.2em;
   padding-bottom: 20px;
+  padding-right:1em;
 }
+
 
 .digital-reconstruction-text-4b {
   color: #303030;
@@ -757,9 +774,40 @@ li {
   width: 400px;
   font-weight: 100;
   text-align: center;
-  padding-left: 20.5em;
+/*  padding-left: 20.5em;*/
   line-height: 1.2em;
+  float: right;
+  padding-right:1em;
 }
+.digital-reconstruction-text-5a {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  width: 350px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 50px;
+ /* float: right;*/
+ /* padding-left: 37%;*/
+  line-height: 1.2em;
+  padding-bottom: 20px;
+  /*padding-right:1em;*/
+}
+
+
+.digital-reconstruction-text-5b {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8em;
+  width: 400px;
+  font-weight: 100;
+  text-align: center;
+  /*padding-left: 35%;*/
+  line-height: 1.2em;
+ /* float: right;*/
+  /*padding-right:1em;*/
+}
+
 
 
 
@@ -770,7 +818,7 @@ li {
 }
 
 /*Navigation Top Bar*/
-nav {
+.menu {
   background-color: #ffffff;
   height: 70px;
   position: Top;
@@ -783,7 +831,7 @@ nav {
   z-index: 1
 }
 
-nav a{
+.menu a{
     display: block;
     float: left;
     color: #303030;
@@ -791,7 +839,7 @@ nav a{
     font-size: 16px;
     background-color: #fff;
     border: none;
-    padding-bottom: 20px;
+   /* padding-bottom: 20px;*/
     padding-right: 10px;
     padding-left: 20px;
     padding-top: 25px;
@@ -840,10 +888,12 @@ body {
 
 .logo {
   border: none;
-  padding-bottom: 5px;
+  padding-bottom: 0px !important;
   padding-left: 10px;
   padding-right: 5px;
   padding-top: 8px;
+  /*float: left;*/
+
 }
 
 .logo img {
@@ -866,365 +916,752 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+/*@media screen and (max-width: 375px) {
+    .digital-reconstruction-text-4b
+    {
+      width: 500px !important;
+    }
+}*/
+@media only screen and (max-device-width: 1055px) {
+  .homepage-title-Diana-Logo{
+    padding-left:8em !important;
+  }
+  .homepagehero-container{
+    padding-right: 11em !important;
+  }
+  .homepagelogocontainer
+  {
+    height: 820px;
+  }
+  .digital-reconstruction-4 div
+  {
+    padding-left: 0px !important;
+  }
+}
+@media only screen and (max-device-width: 410px) {
+  .biohero-container {
+    background-image: url('../images/Diana-Bio-Mobile.png') !important;
+    width: auto;
+    margin-top: 1.3em !important;
+    height: 60em !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+  p
+  {
+    font-size: 1.8em;
+  }
+  .roles
+  {
+    font-size: 1.8em !important;
+    text-align: left;
+  }
+  li
+  {
+    font-size: 2.4em;
+  }
 
+  .column
+  {
+    width: 100% !important;
+  }
+  .column img
+  {
+    width: 100% !important;
+  }
+  .column h3
+  {
+    font-size: 3em;
+  }
+  .column h5
+  {
+    font-size:3em;
+  }
+  .column .details
+  {
+    font-size:1.8em;
+    padding-left: 1em;
+    padding-right:1em;
+  }
+  .column .title
+  {
+    font-size: 1.8em;
+  }
+
+  .pie-charts
+  {
+    width: 28em;
+    padding-left: 7em;
+  }
+
+  #biohero{
+    margin-left: 7.5em !important
+  }
+
+  .menu{
+    display: none;
+  }
+  .logo img {
+    max-width: 140px !important;
+    width: 140px;
+    padding-top:1em;
+  }
+  .digital-reconstruction-1
+  {
+    margin-top: 8px !important;
+  }
+  content{
+    display: block !important;
+  }
+  ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .msg {
+        font-family: 'Pacifico', cursive;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        max-height: 100%;
+        max-width: 100%;
+        align-items: center;
+        color: #FEFEFE;
+        background-color: #1184F0;
+      }
+
+      menu, menu label {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+
+      menu { margin: 0; }
+
+      menu input[type=checkbox] { display: none; }
+
+      menu input[type=checkbox]:checked + .drawer-list {
+        transform: translatex(0);
+        border-bottom-left-radius: 0;
+      }
+
+      menu input[type=checkbox]:checked + .drawer-list li { transform: translatex(0); }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(1) { transition: transform 0.5s 0.02s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(2) { transition: transform 0.5s 0.04s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(3) { transition: transform 0.5s 0.06s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(4) { transition: transform 0.5s 0.08s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(5) { transition: transform 0.5s 0.1s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(6) { transition: transform 0.5s 0.12s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(7) { transition: transform 0.5s 0.14s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(8) { transition: transform 0.5s 0.16s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(9) { transition: transform 0.5s 0.18s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(10) { transition: transform 0.5s 0.2s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(11) { transition: transform 0.5s 0.22s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(12) { transition: transform 0.5s 0.24s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(13) { transition: transform 0.5s 0.26s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(14) { transition: transform 0.5s 0.28s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(15) { transition: transform 0.5s 0.3s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(16) { transition: transform 0.5s 0.32s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(17) { transition: transform 0.5s 0.34s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(18) { transition: transform 0.5s 0.36s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(19) { transition: transform 0.5s 0.38s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(20) { transition: transform 0.5s 0.4s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(21) { transition: transform 0.5s 0.42s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(22) { transition: transform 0.5s 0.44s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(23) { transition: transform 0.5s 0.46s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(24) { transition: transform 0.5s 0.48s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(25) { transition: transform 0.5s 0.5s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(26) { transition: transform 0.5s 0.52s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(27) { transition: transform 0.5s 0.54s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(28) { transition: transform 0.5s 0.56s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(29) { transition: transform 0.5s 0.58s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(30) { transition: transform 0.5s 0.6s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(31) { transition: transform 0.5s 0.62s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(32) { transition: transform 0.5s 0.64s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(33) { transition: transform 0.5s 0.66s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(34) { transition: transform 0.5s 0.68s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(35) { transition: transform 0.5s 0.7s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(36) { transition: transform 0.5s 0.72s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(37) { transition: transform 0.5s 0.74s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(38) { transition: transform 0.5s 0.76s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(39) { transition: transform 0.5s 0.78s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(40) { transition: transform 0.5s 0.8s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(41) { transition: transform 0.5s 0.82s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(42) { transition: transform 0.5s 0.84s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(43) { transition: transform 0.5s 0.86s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(44) { transition: transform 0.5s 0.88s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(45) { transition: transform 0.5s 0.9s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(46) { transition: transform 0.5s 0.92s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(47) { transition: transform 0.5s 0.94s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(48) { transition: transform 0.5s 0.96s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(49) { transition: transform 0.5s 0.98s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li:nth-child(50) { transition: transform 0.5s 1s ease; }
+
+      menu input[type=checkbox]:checked + .drawer-list li a { padding-right: 15px; }
+
+      menu input[type=checkbox]:checked ~ hamburger > i {
+        background-color: transparent;
+        transform: rotate(90deg);
+      }
+
+      menu input[type=checkbox]:checked ~ hamburger > i:before { transform: translate(-50%, -50%) rotate(315deg); }
+
+      menu input[type=checkbox]:checked ~ hamburger > i:after { transform: translate(-50%, -50%) rotate(-315deg); }
+
+      menu input[type=checkbox]:checked ~ hamburger close {
+        color: #FEFEFE;
+        width: 100%;
+      }
+
+      menu input[type=checkbox]:checked ~ hamburger open {
+        color: transparent;
+        width: 0;
+      }
+
+      menu .drawer-list {
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 50vh;
+        width: 100vw;
+        transform: translate(100vw, 0);
+        /* ie workaround */
+        -ms-transform: translatex(-100vw);
+        box-sizing: border-box;
+        pointer-events: none;
+        padding-top: 125px;
+        transition: width 475ms ease-out, transform 450ms ease, border-radius .8s .1s ease;
+        border-bottom-left-radius: 100vw;
+        background-color: #3d81c0;
+        background-color: rgba(64, 78, 92, 0.8);
+      }
+    @media (min-width: 768px) {
+
+          menu .drawer-list { width: 25vw; }
+          }
+
+          menu .drawer-list ul {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+            overflow-x: hidden;
+            pointer-events: auto;
+          }
+
+          menu .drawer-list li {
+            list-style: none;
+            text-transform: uppercase;
+            pointer-events: auto;
+            white-space: nowrap;
+            box-sizing: border-box;
+            transform: translatex(100vw);
+            /* ie workaround */
+            -ms-transform: translatex(-100vw);
+          }
+
+          menu .drawer-list li:last-child { margin-bottom: 2em; }
+
+          menu .drawer-list li a {
+            text-decoration: none;
+            color: #FEFEFE;
+            text-align: center;
+            display: block;
+           padding: .5rem;
+            font-size: 1.2em;
+      }
+
+    @media (min-width: 768px) {
+
+          menu .drawer-list li a {
+            font-size: 1.3em;
+            text-align: right;
+          }
+          }
+
+          menu .drawer-list li a:hover {
+            cursor: pointer;
+            background-color: #88c2f8;
+            background-color: rgba(17, 132, 240, 0.5);
+          }
+
+          menu hamburger {
+            position: absolute;
+            display: block;
+            top: 20px;
+            right: 20px;
+            height: 50px;
+            width: 50px;
+          }
+
+          menu hamburger:hover { cursor: pointer; }
+
+          menu hamburger text close, menu hamburger text open {
+            text-transform: uppercase;
+            font-size: .8em;
+            align-text: center;
+            position: absolute;
+            transform: translateY(50px);
+            text-align: center;
+            overflow: hidden;
+            transition: width .25s .35s, color .45s .35s;
+          }
+
+          menu hamburger text close {
+            color: transparent;
+            right: -24px;
+            width: 0;
+          }
+
+          menu hamburger text open {
+            color: #FEFEFE;
+            width: 100%;
+          }
+
+          menu hamburger > i {
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            top: 50%;
+            background-color: black;
+            pointer-events: auto;
+            transition-duration: .35s;
+            transition-delay: .35s;
+          }
+
+          menu hamburger > i:before, menu hamburger > i:after {
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 2px;
+            left: 50%;
+            background: black;
+            content: "";
+            transition: transform 0.35s;
+            transform-origin: 50% 50%;
+          }
+
+          menu hamburger > i:before { transform: translate(-50%, -14px); }
+
+          menu hamburger > i:after { transform: translate(-50%, 14px); }
+    }
 @media screen and (min-width: 375px) {
-.logohome {
-  width: 60%;
-  height: 60%;
-}
 
-.icon {
-  border: none;
-  padding-bottom: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 5px;
-}
-
-.UXArch {
-  font-family: 'Yanone Kaffeesatz';
-  font-size: .8em;
-  color: #303030;
-  font-weight: 100;
-}
-
-.hero {
-  color: #7D5050;
-  font-family: 'Yanone Kaffeesatz';
-  font-size: 2em;
-  width: 440px;
-  font-weight: 100;
-  line-height: 1em;
-  text-align: center;
-
-}
-
-.homepagehero-container {
-  width:800px;
-  line-height: 3em;
-  text-align: center;
-  margin-top: 3.5em;
-}
-
-.new-project-cluster-Y {
-  background-image: url('../images/Mobile-triangles.jpg');
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.new-project-cluster-B {
-  background-image: url('../images/Mobile-Triangle-Brown.jpg');
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.newprojects-container {
-  position: absolute;
-  padding-left: 1.6em;
-}
-
-.newprojects {
-  color: #303030;
-  font-family: 'Yanone Kaffeesatz';
-  font-size: 2em;
-  width: 60%;
-  font-weight: 50;
-  text-align: center;
-  line-height: 1em;
-  margin: 0 auto;
-  padding-top: 2em;
-  padding-bottom: 1em;
-}
-
-.hive-button {
-  background-color: #FDCFBB;
-  border: 2px solid #FDCFBB;
-  color: #303030;
-  padding: 10px 13px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 1.2em;
-  margin: 2px 1px;
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.hive-button:hover {
-  background-color: #7D5050; /* Purple*/
-  border: 2px solid #7D5050;
-  color: white;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-}
-
-.hive-button {
-  background-color: #FDCFBB;
-  border: 2px solid #FDCFBB;
-  color: #303030;
-  padding: 10px 13px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 1.2em;
-  margin: 2px 1px;
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.hive-button:hover {
-  background-color: #7D5050; /* Purple*/
-  border: 2px solid #7D5050;
-  color: white;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-}
-
-.icon {
-  border: none;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 5px;
-}
-
-.biohero-container {
-  background-image: url('../images/Diana-Photo.jpg');
-  width: auto;
-  margin-top: 3.3em;
-  height: 10em;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 1em;
-}
-
-#biohero {
-  color: #7D5050;
-  width: 230px;
-  font-family: 'Yanone Kaffeesatz';
-  font-size: 1.15em;
-  font-weight: 100;
-  float: left;
-  margin-left: 1.5em;
-  text-align: center;
-  padding-top: .5em;
-}
-
-.name {
-  color: #19675D;
-  font-family: 'Yanone Kaffeesatz';
-  font-size: 2em;
-  font-weight: 100;
-  text-align: center;
-  padding-top: .5em;
-  padding-bottom: .3em;
-}
-
-.titlebiopage {
-  color: #303030;
-  font-family: 'Yanone Kaffeesatz';
-  font-size: 1.3em;
-  font-weight: 100;
-  text-align: center;
-  padding: .5em;
-}
-
-.bodytext {
-  width: auto;
-  margin: left;
-  padding-right: 35px;
-  padding-left: 35px;
-  text-align: justify;
-}
-
-
-.homepage-pink-links {
-  width: 400px;
-  margin: 0 auto;
-  line-height: .75em;
-  padding: .1em;
-  color: #DD7F7F;
-}
-
-.hivecasestudyh3 {
-  color: #DD7F7F;
-  font-family: 'Roboto';
-  font-size: .8em;
-  font-weight: 300;
-  text-align: center;
-  text-decoration: none;
-}
-
-.roles {
-  color: #303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: .8em;
-  font-weight: 100;
-  text-align: center;
-}
-
-.roles-container {
-  width: 350px;
-  margin: 0 auto;
-  line-height: 1.2em;
-}
-
-.project-headers {
-  color: #303030;
-  font-family: 'Roboto';
-  font-size: 1.4em;
-  font-weight: 100;
-}
-
-.homepage-highlight-containers-longer {
-  width: auto;
-  margin: 1em auto;
-  position: absolute;
-  padding-left: 2em;
-}
-
-.banner-bar-text-G {
-  background-image: url('../images/Grey-Banner-Bar.jpg');
-  margin-top: 3em;
-  margin-bottom: 3em;
-  height: 6em;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.bannerbar-G {
-  color: #303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  font-weight: 100;
-  text-align: center;
-  padding-top: .5em;
-  padding-left: 1.5em;
-  line-height: 1.3em;
-}
-
-.banner-bar-text-P {
-  background-image: url('../images/Pink-Banner-Bar.jpg');
-  margin-top: 3em;
-  margin-bottom: 3em;
-  height: 8em;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-}
-
-.homepage-highlight-containers-long {
-  width: auto;
-  margin: 1em auto;
-  position: absolute;
-  padding-left: .5em;
-  padding-top: .5em;
-}
-
-.bannerbar-P {
-  color: #303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  font-weight: 100;
-  text-align: center;
-  padding-top: .1em;
-  padding-left: .5em;
-  line-height: 1.2em;
-}
-
-.details {
-  color: #303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: .8em;
-  font-weight: 300;
-  text-align: justify;
-  line-height: 1.6em;
-  width: auto;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.column {
-  display: none;
-}
-
-.banner-bar-text-Y {
-  background-image: url('../images/Yellow-Banner-Bar.jpg');
-  margin-top: 3em;
-  margin-bottom: 3em;
-  height: 6em;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.bannerbar-Y {
-  color: #303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  font-weight: 100;
-  text-align: center;
-  padding-left: 1em;
-  line-height: 1.2em;
-}
-
-.bannerbar-G2 {
-  color: #303030;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  font-weight: 100;
-  text-align: center;
-  padding-left: 1em;
-  line-height: 1.3em;
-}
-
-.banner-bar-text-G2 {
-  background-image: url('../images/Grey-Banner-Bar.jpg');
-  margin-top: 3em;
-  margin-bottom: 3em;
-  height: 6em;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-nav {
-  background-color: #ffffff;
-  height: 70px;
-  position: Top;
-  top: 0;
-  left: 0;
-  width: 100%;
-  position: fixed;
-  z-index: 1
-}
-
-nav a{
-    display: block;
-    float: left;
-    color: #303030;
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    background-color: #fff;
+  .logohome {
+    width: 60%;
+    height: 60%;
+  }
+  .digital-reconstruction-text-4b
+  {
+    width: 350px;
+  }
+  .icon {
     border: none;
-    padding-bottom: 23px;
-    padding-right: 3px;
-    padding-left: 3px;
-    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+  }
+
+  .UXArch {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: .8em;
+    color: #303030;
+    font-weight: 100;
+  }
+
+  .hero {
+    color: #7D5050;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 2em;
+    width: 440px;
+    font-weight: 100;
+    line-height: 1em;
+    text-align: center;
+
+  }
+
+  .homepagehero-container {
+    width:800px;
+    line-height: 3em;
+    text-align: center;
+    margin-top: 3.5em;
+  }
+
+  .new-project-cluster-Y {
+    background-image: url('../images/Mobile-triangles.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .new-project-cluster-B {
+    background-image: url('../images/Mobile-Triangle-Brown.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .newprojects-container {
+    position: absolute;
+    padding-left: 1.6em;
+  }
+
+  .newprojects {
+    color: #303030;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 2em;
+    width: 60%;
+    font-weight: 50;
+    text-align: center;
+    line-height: 1em;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+
+  .hive-button {
+    background-color: #FDCFBB;
+    border: 2px solid #FDCFBB;
+    color: #303030;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    margin: 2px 1px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .hive-button:hover {
+    background-color: #7D5050; /* Purple*/
+    border: 2px solid #7D5050;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  .hive-button {
+    background-color: #FDCFBB;
+    border: 2px solid #FDCFBB;
+    color: #303030;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    margin: 2px 1px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .hive-button:hover {
+    background-color: #7D5050; /* Purple*/
+    border: 2px solid #7D5050;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  .icon {
+    border: none;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+  }
+
+  .biohero-container {
+    background-image: url('../images/Diana-Photo.jpg');
+    width: auto;
+    margin-top: 3.3em;
+    height: 10em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+
+  #biohero {
+    color: #7D5050;
+    width: 230px;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 1.15em;
+    font-weight: 100;
+    float: left;
+    margin-left: 1.5em;
+    text-align: center;
+    padding-top: .5em;
+  }
+
+  .name {
+    color: #19675D;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .3em;
+  }
+
+  .titlebiopage {
+    color: #303030;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+    padding: .5em;
+  }
+
+  .bodytext {
+    width: auto;
+    margin: left;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-align: justify;
+  }
+
+
+  .homepage-pink-links {
+    width: 400px;
+    margin: 0 auto;
+    line-height: .75em;
+    padding: .1em;
+    color: #DD7F7F;
+  }
+
+  .hivecasestudyh3 {
+    color: #DD7F7F;
+    font-family: 'Roboto';
+    font-size: .8em;
+    font-weight: 300;
+    text-align: center;
     text-decoration: none;
   }
 
-.topnav {
-  float:right;
-}
+  .roles {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .roles-container {
+    width: 350px;
+    margin: 0 auto;
+    line-height: 1.2em;
+  }
+
+  .project-headers {
+    color: #303030;
+    font-family: 'Roboto';
+    font-size: 1.4em;
+    font-weight: 100;
+  }
+
+  .homepage-highlight-containers-longer {
+    width: auto;
+    margin: 1em auto;
+    position: absolute;
+    padding-left: 2em;
+  }
+
+  .banner-bar-text-G {
+    background-image: url('../images/Grey-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 6em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bannerbar-G {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    padding-top: .5em;
+    padding-left: 1.5em;
+    line-height: 1.3em;
+  }
+
+  .banner-bar-text-P {
+    background-image: url('../images/Pink-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 8em;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  .homepage-highlight-containers-long {
+    width: auto;
+    margin: 1em auto;
+    position: absolute;
+    padding-left: .5em;
+    padding-top: .5em;
+  }
+
+  .bannerbar-P {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    padding-top: .1em;
+    padding-left: .5em;
+    line-height: 1.2em;
+  }
+
+  .details {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.6em;
+    width: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .column {
+    display: none;
+  }
+
+  .banner-bar-text-Y {
+    background-image: url('../images/Yellow-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 6em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bannerbar-Y {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 1em;
+    line-height: 1.2em;
+  }
+
+  .bannerbar-G2 {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 1em;
+    line-height: 1.3em;
+  }
+
+  .banner-bar-text-G2 {
+    background-image: url('../images/Grey-Banner-Bar.jpg');
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 6em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .menu {
+    background-color: #ffffff;
+    height: 70px;
+    position: Top;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1
+  }
+
+  .menu a{
+      display: block;
+      float: left;
+      color: #303030;
+      font-family: 'Roboto', sans-serif;
+      font-size: 10px;
+      background-color: #fff;
+      border: none;
+      padding-bottom: 23px;
+      padding-right: 3px;
+      padding-left: 3px;
+      padding-top: 25px;
+      text-decoration: none;
+    }
+
+  .topnav {
+    float:right;
+  }
 
 }
 
@@ -1309,7 +1746,7 @@ nav a{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 1.2em;
-    margin: 2px 1px;
+    margin: 2px 37px;
     cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
@@ -1327,7 +1764,7 @@ nav a{
   .biohero-container {
     background-image: url('../images/Diana-Photo.jpg');
     width: auto;
-    margin-top: 3.3em;
+    margin-top: 4.3em;
     height: 20em;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1369,8 +1806,8 @@ nav a{
   .bodytext {
     width: auto;
     margin: left;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 1em;
+    padding-left: 1em;
     text-align: justify;
   }
 
@@ -1378,15 +1815,16 @@ nav a{
   .homepage-pink-links {
     width: 600px;
     margin: 0 auto;
-    line-height: .75em;
+    line-height: 3.05em;
     padding: 1.2em;
     color: #DD7F7F;
+    text-align: center;
   }
 
   .hivecasestudyh3 {
     color: #DD7F7F;
     font-family: 'Roboto';
-    font-size: 1.2em;
+    font-size: 2.2em;
     font-weight: 300;
     text-align: center;
     text-decoration: none;
@@ -1397,13 +1835,13 @@ nav a{
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-weight: 100;
-    text-align: center;
+    text-align: left;
   }
 
   .roles-container {
     width: 700px;
     margin: 0 auto;
-    line-height: 1.3em;
+    line-height: 3.3em;
   }
 
   h1 {
@@ -1416,8 +1854,10 @@ nav a{
   .project-headers {
     color: #303030;
     font-family: 'Roboto';
-    font-size: 1.8em;
+    font-size: 3em;
     font-weight: 100;
+        text-align: center;
+    padding-top: 1em;
   }
 
   .homepage-highlight-containers-longer {
@@ -1431,7 +1871,7 @@ nav a{
     background-image: url('../images/Grey-Banner-Bar.jpg');
     margin-top: 3em;
     margin-bottom: 3em;
-    height: 6em;
+    height: 11em;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -1439,10 +1879,11 @@ nav a{
   .bannerbar-G {
     color: #303030;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-size: 2.2em;
     font-weight: 100;
     text-align: center;
-    padding-left: 8em;
+    padding-left: 1em;
+    padding-right:1em;
     line-height: 1.3em;
   }
 
@@ -1450,7 +1891,7 @@ nav a{
     background-image: url('../images/Pink-Banner-Bar.jpg');
     margin-top: 3em;
     margin-bottom: 3em;
-    height: 8em;
+    height: 10em;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -1459,17 +1900,18 @@ nav a{
     width: auto;
     margin: 1em auto;
     position: absolute;
-    padding-left: 2em;
+   /* padding-left: 2em;*/
     padding-top: .5em;
   }
 
   .bannerbar-P {
     color: #303030;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-weight: 100;
     text-align: center;
-    padding-left: 8em;
+    padding-left: 3em;
+    padding-right: 3em;
     line-height: 1.3em;
   }
 
@@ -1493,7 +1935,7 @@ nav a{
     background-image: url('../images/Yellow-Banner-Bar.jpg');
     margin-top: 3em;
     margin-bottom: 3em;
-    height: 6em;
+    height: 11em;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -1501,20 +1943,22 @@ nav a{
   .bannerbar-Y {
     color: #303030;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-size: 2.2em;
     font-weight: 100;
     text-align: center;
-    padding-left: 4em;
+    padding-left: 1em;
+    padding-right:1em;
     line-height: 1.2em;
   }
 
   .bannerbar-G2 {
     color: #303030;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-size: 2.2em;
     font-weight: 100;
     text-align: center;
-    padding-left: 3em;
+    padding-left: 1em;
+    padding-right:1em;
     line-height: 1.3em;
   }
 
@@ -1522,14 +1966,14 @@ nav a{
     background-image: url('../images/Grey-Banner-Bar.jpg');
     margin-top: 3em;
     margin-bottom: 3em;
-    height: 6em;
+    height: 11em;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  nav {
+  .menu {
     background-color: #ffffff;
-    height: 70px;
+    height: 77px;
     position: Top;
     top: 0;
     left: 0;
@@ -1538,7 +1982,7 @@ nav a{
     z-index: 1
   }
 
-  nav a{
+  .menu a{
       display: block;
       float: left;
       color: #303030;
@@ -1548,12 +1992,13 @@ nav a{
       border: none;
       padding-bottom: 20px;
       padding-right: 20px;
-      padding-top: 25px;
+      padding-top: 13px;
       text-decoration: none;
     }
 
   .topnav {
     float:right;
+
   }
 
 }
@@ -1644,7 +2089,7 @@ nav a{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 1.2em;
-    margin: 2px 1px;
+    margin: 2px 37px;
     cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
@@ -1800,12 +2245,13 @@ nav a{
 
   .bannerbar-P {
     color: #303030;
-    width: 600px;
+   /* width: 600px;*/
     font-family: 'Roboto', sans-serif;
     font-size: 1.4em;
     font-weight: 100;
     text-align: center;
     padding-left: 10em;
+    padding-right:10em;
     line-height: 1.2em;
   }
 
@@ -1863,9 +2309,9 @@ nav a{
     background-repeat: no-repeat;
   }
 
-  nav {
+  .menu {
     background-color: #ffffff;
-    height: 70px;
+    height: 77px;
     position: Top;
     top: 0;
     left: 0;
@@ -1874,7 +2320,7 @@ nav a{
     z-index: 1
   }
 
-  nav a{
+  .menu a{
       display: block;
       float: left;
       color: #303030;
@@ -1884,7 +2330,7 @@ nav a{
       border: none;
       padding-bottom: 20px;
       padding-right: 20px;
-      padding-top: 25px;
+      padding-top: 13px;
       text-decoration: none;
     }
 
