@@ -942,7 +942,14 @@ body {
 @media only screen and (max-device-width: 410px) {
   .biohighlights
   {
-    font-size: 1.8em;
+    font-size: 2.2em;
+  }
+  #biohero
+  {
+    font-size: 3em !important;
+    margin-left: 3em !important;
+    width: 10em !important;
+    padding-top: 20px !important;
   }
   .biohero-container {
     background-image: url('../images/Diana-Bio-Mobile.png') !important;
@@ -1001,9 +1008,7 @@ body {
     padding-left: 7em;
   }
 
-  #biohero{
-    margin-left: 7.5em !important
-  }
+
 
   .menu{
     display: none;
