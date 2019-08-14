@@ -338,7 +338,7 @@ h2 {
 #contact {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-size: 1.35em;
   font-weight: 100;
   margin-top: 10px;
   padding-top: .5em;
@@ -668,7 +668,7 @@ li {
   color: #303030;
   font-family: 'Roboto', sans-serif;
   font-size: 1.8em;
-
+  
   font-weight: 100;
   text-align: center;
   float: right;
@@ -904,7 +904,8 @@ body {
   float: left;
   width: 30%;
   display: block;
-  padding: 10px;
+  /*padding: 10px;
+  padding-right: 0px !important;*/
 }
 
 .icon {
@@ -939,6 +940,10 @@ body {
   }
 }
 @media only screen and (max-device-width: 410px) {
+  .biohighlights
+  {
+    font-size: 1.8em;
+  }
   .biohero-container {
     background-image: url('../images/Diana-Bio-Mobile.png') !important;
     width: auto;
@@ -961,14 +966,15 @@ body {
   {
     font-size: 2.4em;
   }
-
+  
   .column
   {
     width: 100% !important;
   }
   .column img
   {
-    width: 100% !important;
+    width: 70% !important;
+   /* padding-left: 6em;*/
   }
   .column h3
   {
@@ -1013,6 +1019,7 @@ body {
   }
   content{
     display: block !important;
+    text-align: left;
   }
   ul {
         list-style: none;
@@ -1036,7 +1043,7 @@ body {
 
       menu, menu label {
         position: absolute;
-        top: 10px;
+        top: 25px;
         right: 10px;
       }
 
@@ -1151,7 +1158,7 @@ body {
 
       menu input[type=checkbox]:checked + .drawer-list li:nth-child(50) { transition: transform 0.5s 1s ease; }
 
-      menu input[type=checkbox]:checked + .drawer-list li a { padding-right: 15px; }
+      menu input[type=checkbox]:checked + .drawer-list li a { padding-right: 20px; }
 
       menu input[type=checkbox]:checked ~ hamburger > i {
         background-color: transparent;
@@ -1191,7 +1198,7 @@ body {
       }
     @media (min-width: 768px) {
 
-          menu .drawer-list { width: 25vw; }
+          menu .drawer-list { width: 32vw; }
           }
 
           menu .drawer-list ul {
@@ -1229,7 +1236,7 @@ body {
     @media (min-width: 768px) {
 
           menu .drawer-list li a {
-            font-size: 1.3em;
+            font-size: 0.7em;
             text-align: right;
           }
           }
@@ -1264,7 +1271,7 @@ body {
 
           menu hamburger text close {
             color: transparent;
-            right: -24px;
+            right: -3px;
             width: 0;
           }
 
@@ -1301,7 +1308,7 @@ body {
           menu hamburger > i:after { transform: translate(-50%, 14px); }
     }
 @media screen and (min-width: 375px) {
-
+ 
   .logohome {
     width: 60%;
     height: 60%;
@@ -1928,7 +1935,8 @@ body {
     float: left;
     width: 30%;
     display: block;
-    padding: 10px;
+  /*  padding: 10px;
+    padding-right:0px !important;*/
   }
 
   .banner-bar-text-Y {
@@ -2340,3 +2348,4 @@ body {
 
 
 }
+
