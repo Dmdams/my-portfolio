@@ -269,7 +269,7 @@ hr {
 h2 {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  font-size: 2.15em;
+  font-size: 1.3em;
   text-align: left;
   font-weight: 100;
   line-height: 1.3em
@@ -668,7 +668,7 @@ li {
   color: #303030;
   font-family: 'Roboto', sans-serif;
   font-size: 1.8em;
-  
+
   font-weight: 100;
   text-align: center;
   float: right;
@@ -973,7 +973,7 @@ body {
   {
     font-size: 2.4em;
   }
-  
+
   .column
   {
     width: 100% !important;
@@ -1313,7 +1313,7 @@ body {
           menu hamburger > i:after { transform: translate(-50%, 14px); }
     }
 @media screen and (min-width: 375px) {
- 
+
   .logohome {
     width: 60%;
     height: 60%;
@@ -2353,4 +2353,3 @@ body {
 
 
 }
-
