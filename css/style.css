@@ -152,6 +152,16 @@ h1 {
   margin-bottom: .5em;
 }
 
+.santa-cristina-reconstruction-homepage {
+  background-image: url('../images/Santa-Cristina-Final-Render1.png');
+  width: auto;
+  margin-top: 2.5em;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .5em;
+}
+
 .hero {
   color: #7D5050;
   font-family: 'Yanone Kaffeesatz';
@@ -420,6 +430,16 @@ p {
   line-height: 1.4em;
 }
 
+.captions {
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  font-size: .7em;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.4em;
+}
+
 .roles {
   color: #303030;
   font-family: 'Roboto', sans-serif;
@@ -454,6 +474,13 @@ ol {
 
 .yellow {
   color: #DAB73C;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.green {
+  color: #0D8475;
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 300;
@@ -610,6 +637,15 @@ li {
   margin-top: 3em;
   margin-bottom: 3em;
   height: 6em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-bar-text-GN {
+  background-image: url('../images/banner-bar-text-GN.png');
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 9em;
   background-size: cover;
   background-repeat: no-repeat;
 }
