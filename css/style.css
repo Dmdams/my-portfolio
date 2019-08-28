@@ -433,7 +433,7 @@ p {
 .captions {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  font-size: .7em;
+  font-size: .8em;
   font-style: italic;
   font-weight: 300;
   text-align: center;
@@ -600,7 +600,7 @@ li {
 .bannerbar-P {
   color: #303030;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 100;
   text-align: center;
   padding-left: 10em;
@@ -697,7 +697,7 @@ li {
   /*padding-left: 50%;*/
   line-height: 1.2em;
   padding-bottom: 20px;
-  padding-right:1em;
+  /*padding-right:1em;*/
 }
 
 .digital-reconstruction-text-1b {
@@ -828,6 +828,11 @@ li {
   line-height: 1.2em;
   padding-bottom: 20px;
   /*padding-right:1em;*/
+
+  display: flex;
+  padding: 0 38px;
+  text-align: center;
+  justify-content: center;
 }
 
 
@@ -1569,6 +1574,7 @@ body {
     font-family: 'Roboto';
     font-size: 1.4em;
     font-weight: 100;
+    line-height: 1.2em;
   }
 
   .homepage-highlight-containers-longer {
@@ -1906,6 +1912,7 @@ body {
     font-weight: 100;
         text-align: center;
     padding-top: 1em;
+    line-height: 1.2em;
   }
 
   .homepage-highlight-containers-longer {
@@ -1955,7 +1962,7 @@ body {
   .bannerbar-P {
     color: #303030;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.2em;;
     font-weight: 100;
     text-align: center;
     padding-left: 3em;
@@ -2237,6 +2244,7 @@ body {
     font-family: 'Roboto';
     font-size: 2em;
     font-weight: 100;
+    line-height: 1.2em;
   }
 
   .homepage-highlight-containers-longer {
@@ -2288,7 +2296,7 @@ body {
     width: auto;
     margin: 1em auto;
     position: absolute;
-    padding-left: 2em;
+    /*padding-left: 2em;*/
     padding-top: .5em;
   }
 
@@ -2296,11 +2304,11 @@ body {
     color: #303030;
    /* width: 600px;*/
     font-family: 'Roboto', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 100;
     text-align: center;
-    padding-left: 10em;
-    padding-right:10em;
+    padding-left: 7.4em;
+    padding-right: 7.4em;
     line-height: 1.2em;
   }
 

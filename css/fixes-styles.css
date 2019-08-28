@@ -1,0 +1,154 @@
+.santa-cristina-btn {
+    clear: right;
+    float: right;
+    background-color: #9CC8B2;
+    border-color: #9CC8B2;
+}
+
+#contact {
+    font-family: Yanone Kaffeesatz;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 22px;
+}
+
+.bottom-nav-links {
+    color: #333333;
+    padding: 24px 0;
+}
+
+.captions {
+    color: #333333;
+}
+
+#myTopnav {
+    margin: 15px;
+}
+
+a.logo {
+    margin: 13px;
+    padding: 0;
+}
+
+.wfl2 {
+margin-top: 18px;
+}
+
+.digital-wrapper {
+    width: 19em;
+    padding-top: 5em;
+}
+
+.digital-reconstruction-text-5b.didyma {
+    padding-top: 1em;
+}
+.digital-reconstruction-text-4b.didyma {
+    padding-top: 1em;
+}
+
+.button.digital-reconstruction-5b {
+    margin-top: 3em;
+}
+
+.header-block {
+    width: 100%; float: left;
+}
+
+.digital-reconstruction-text-1a {
+    clear: both;
+    float: right;
+}
+
+.digital-reconstruction-text-1b {
+    clear: both;
+    float: right;
+    padding-right: 2em;
+}
+
+.button.digital {
+    clear: both;
+    float: right;
+    margin-right: 8em;
+    margin-top: 1em;
+    background-color: #9CC8B2;
+    border-color: #9CC8B2;
+}
+
+.banner-bar-text-GN.moravetti {
+    height: 10em;
+}
+
+.qoutation {
+    position: relative;
+}
+
+.qoutation-text {
+    padding: 22px 3em;
+    margin: 0;
+}
+
+.qoutation-left {
+    float: left;
+}
+
+.qoutation-right {
+    float: right;
+    padding-bottom: -1em;
+    clear: both;
+    display: inline-block;
+    /* margin-bottom: 8px; */
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+}
+
+.item-img {
+    display: inline-block;
+    width: 50%;
+}
+
+.hivelogo {
+    margin: 0.6em 0;
+}
+
+@media only screen and (max-device-width: 1410px) {
+    .wfl2 {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-device-width: 410px) {
+    .wfl2 {
+        margin-top: -6px;
+    }
+}
+
+@media only screen and (max-device-width: 1055px) {
+    .digital-reconstruction-text-5a {
+        width: 420px;
+    }
+
+    .digital-reconstruction-text-5b.didyma {
+        padding-top: 0;
+    }
+
+    .digital-wrapper {
+        padding-top: 5px;
+        padding-right: 73px;
+    }
+
+    .button.digital-reconstruction-5b {
+        margin-top: 9em;
+        margin-right: 77px;
+    }
+    .digital-reconstruction-text-4b.didyma {
+        /*margin-top: 9em;*/
+        /*margin-right: 77px;*/
+    }
+    .digital-reconstruction-text-4b {
+        padding-top: 0;
+    }
+}
+
+

@@ -1,0 +1,119 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.grid-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.grid-item {
+   /*height: 550px;*/
+   flex-basis: 25%;
+   -ms-flex: auto;
+   width: 259px;
+   position: relative;
+   padding: 10px;
+   box-sizing: border-box;
+ }
+
+.grid-item-2 {
+   /*height: 550px;*/
+   flex-basis: 50%;
+   -ms-flex: auto;
+   width: 259px;
+   position: relative;
+   padding: 10px;
+   box-sizing: border-box;
+ }
+
+.grid-item-3 {
+  /*height: 550px;*/
+  flex-basis: 33.3333333334%;
+  -ms-flex: auto;
+  width: 259px;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-device-width: 1410px) {
+  .grid-item {
+    flex-basis: 25%;
+  }
+  .grid-item-2 {
+    /*height: 550px;*/
+    flex-basis: 50%;
+    -ms-flex: auto;
+    width: 259px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .grid-item-3 {
+    /*height: 550px;*/
+    flex-basis: 33.3333333334%;
+    -ms-flex: auto;
+    width: 259px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
+@media only screen and (max-device-width:1073px) {
+  .grid-item {
+    flex-basis: 25%;
+  }
+  .grid-item-2 {
+    /*height: 550px;*/
+    flex-basis: 50%;
+    -ms-flex: auto;
+    width: 259px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .grid-item-3 {
+    /*height: 550px;*/
+    flex-basis: 33.3333333334%;
+    -ms-flex: auto;
+    width: 259px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
+@media only screen and (max-device-width:815px) {
+  .grid-item {
+    flex-basis: 50%;
+  }
+  .grid-item-2 {
+    /*height: 550px;*/
+    flex-basis: 100%;
+    -ms-flex: auto;
+    width: 259px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .grid-item-3 {
+    /*height: 550px;*/
+    flex-basis: 100%;
+    -ms-flex: auto;
+    width: 259px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+/*@media only screen and (max-device-width:555px) {*/
+/*  .grid-item {*/
+/*    flex-basis: 100%;*/
+/*  }*/
+/*}*/
